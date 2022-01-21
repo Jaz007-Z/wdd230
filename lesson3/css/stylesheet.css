@@ -1,0 +1,52 @@
+header,
+footer {
+    background-color: rgb(175, 9, 9);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding: .5em;
+}
+
+main {
+    max-width: 70em;
+    margin: auto;
+    padding: .5em;
+}
+
+nav li {
+    list-style-type: none;
+    padding: .05em;
+    border: .1em solid#444;
+
+}
+
+a {
+    color: #ffffff;
+}
+h1 {
+    /* color: #8a2be2; */
+    color: #7851a9;
+}
+
+main {
+    /* background-color: #a956fb; */
+    background-color: #faf2e7;
+}
+
+
+
+
+@media (min-width: 37.5em) {
+
+    /* Flex *********************/
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 auto;
+        padding: .35em;
+    }
+
+}
