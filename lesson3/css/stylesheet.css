@@ -27,6 +27,15 @@ a {
 h1 {
     /* color: #8a2be2; */
     color: #7851a9;
+    font-family: 'MedievalSharp', cursive;
+}
+
+h2 {
+    font-family: 'Metamorphous', cursive;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
 }
 
 main {
