@@ -9,6 +9,9 @@
     <meta name="description" content="A plan stating the purpose, name, and logo of a chamber of commerce">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
     <script defer src="js/javaScript.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,44 +21,48 @@
 
 <body>
     <header>
-        <nav>
+        <div class="headerTop">
             <img src="images/small-guild-seal.png" alt="Guild Smybol" width="75">
             <div class="pageTitle">
                 <h2 class="title">Guilds'</h2>
                 <p class="title">Chamber of Commerce</p>
             </div>
             <div class="social">
-                <span><a href="facebook.com" target="_blank">
-                        <!-- put image here -->
-                        <img width="20" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAvlJREFUaEPtmjts01AUhv9jF0hCmxTaxFEGBqDlNSAQAw+xILHAiGBg4yEhIVAHIA8WMvBqioQEjKhiQ3ToBnOFqAQDaqe2assGFUla1DrULU18D7ILoqoi2ylx60i+kp3Bx/b/netzzlXOJfwZ0WyhWdKCXQCfZxKdBCn495oXfhligVgaB6FPBBefFbOxn4YuMk7tGbVTFngHYJcXxNpqYEwK5jPFnsgEmZ5fCAw3jPh/dBPQtUOkpNS7AB7YUnvTIENKUh0G4aA39VmrIuYhiqVmtQ0O2BIzZsyAJLQC5uFoMJNmfELsyLpeRswVSNIbFujfXBYDX59Gfqx+9I707LYllhNgPsKEV1avXlcAITBAEFcLPa1fnPijPTmfkEn/5hWA3nyw5RqyVHEi3kzvngFgHmwLhU+NZGnJqXgPAbAuBPYZRacW8d4BYHqdz7VcrFW8ZwCY6Vwh19LvFCCRnQo1LYa2GPZlIccF8cjGBTGz2FRGtFqqXCkqnintZ6HfB0unQWh2CmvWDjfrADMXC7lIzEqQkp7dCZY+11LAVj7PVQABHi12R/ZbA5Seg/lGLV5fNwAGPhW6w0etxMXSc++J6aQnAQB8zHeHj1kCpNQxAvb4AGv1gM19/gzYOdbVLNQgMcBlibhqoBJJ81OPwmNWXoynSgeI9EA1Gx10mZiuu1qJmXmpkIuYpb/eQ0mpvQAuNTLAIIDjDQsQS6rTRGhrSIDELbVdb0LR7rP87yzkVgzEMuoJEvjQsABKUr0Cwst1AQhIHK/2Ik2UK9O5aMlKxPbsTLh5UZZX2/xi+R7AXa4D+EsJfzXq7l+L/mrUD2I7D/hZyM9CfhayjAI/jdolEbebfK7OwHKTz902q6sAZptVSaoZEB7aTdUar7sLQEgvbzXQAkMg7F6jSKvbXAMgxjgL7bC52SN6Z65DkugtgI46Q7gCYIjXJT5bfByZNAGModz+vhVy6CYxXxDEe+vUva8bgLHdBpBHJeI+rmgv8k/i84bu3+qZ8osOLMsmAAAAAElFTkSuQmCC"
-                            alt="FB">
-                    </a>
-                </span>
-                <!-- <span><a href="instragram.com" target="_blank">
-                        <img src="data:image/png;base64,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"
-                            alt="Instagram">
-    
-                    </a>
-                </span> -->
-                <span><a href="twitter.com" target="_blank">
-                        <img img width="20" src="data:image/png;base64,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"
-                            alt="Twitter">
-                    </a>
-                </div>
-                </span>
-            <ul class="navigation">
-                <li><a href="#" class="mainMenu">&#9776; Menu</a></li>
-                <li><a href="#">Discovery</a></li>
-                <li><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <p id="lastMod"></p> 
+                <a href="facebook.com" target="_blank">
+                    <img width="20"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAvlJREFUaEPtmjts01AUhv9jF0hCmxTaxFEGBqDlNSAQAw+xILHAiGBg4yEhIVAHIA8WMvBqioQEjKhiQ3ToBnOFqAQDaqe2assGFUla1DrULU18D7ILoqoi2ylx60i+kp3Bx/b/netzzlXOJfwZ0WyhWdKCXQCfZxKdBCn495oXfhligVgaB6FPBBefFbOxn4YuMk7tGbVTFngHYJcXxNpqYEwK5jPFnsgEmZ5fCAw3jPh/dBPQtUOkpNS7AB7YUnvTIENKUh0G4aA39VmrIuYhiqVmtQ0O2BIzZsyAJLQC5uFoMJNmfELsyLpeRswVSNIbFujfXBYDX59Gfqx+9I707LYllhNgPsKEV1avXlcAITBAEFcLPa1fnPijPTmfkEn/5hWA3nyw5RqyVHEi3kzvngFgHmwLhU+NZGnJqXgPAbAuBPYZRacW8d4BYHqdz7VcrFW8ZwCY6Vwh19LvFCCRnQo1LYa2GPZlIccF8cjGBTGz2FRGtFqqXCkqnintZ6HfB0unQWh2CmvWDjfrADMXC7lIzEqQkp7dCZY+11LAVj7PVQABHi12R/ZbA5Seg/lGLV5fNwAGPhW6w0etxMXSc++J6aQnAQB8zHeHj1kCpNQxAvb4AGv1gM19/gzYOdbVLNQgMcBlibhqoBJJ81OPwmNWXoynSgeI9EA1Gx10mZiuu1qJmXmpkIuYpb/eQ0mpvQAuNTLAIIDjDQsQS6rTRGhrSIDELbVdb0LR7rP87yzkVgzEMuoJEvjQsABKUr0Cwst1AQhIHK/2Ik2UK9O5aMlKxPbsTLh5UZZX2/xi+R7AXa4D+EsJfzXq7l+L/mrUD2I7D/hZyM9CfhayjAI/jdolEbebfK7OwHKTz902q6sAZptVSaoZEB7aTdUar7sLQEgvbzXQAkMg7F6jSKvbXAMgxjgL7bC52SN6Z65DkugtgI46Q7gCYIjXJT5bfByZNAGModz+vhVy6CYxXxDEe+vUva8bgLHdBpBHJeI+rmgv8k/i84bu3+qZ8osOLMsmAAAAAElFTkSuQmCC"
+                        alt="FB">
+                </a>
+                <a href="twitter.com" target="_blank">
+                    <img img width="20"
+                        src="data:image/png;base64,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"
+                        alt="Twitter">
+                </a>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" class="mainMenu">&#9776; Menu</a></li>
+                    <li><a href="#">Discovery</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p id="lastMod"></p>
     </header>
 
     <main>
-        <h1>Site Name: The Guilds' Chamber of Commerce</h1>
+        <div class="placeholderBoxes hero"><h2>Hero testing</h2></div>
+        <div class="placeholderBoxes event" ><h2>Event</h2></div>
+        <div class="placeholderBoxes wheather"><h2>Wheather</h2></div>
+        <div class="placeholderBoxes news"><h2>News Release</h2></div>
+        <div class="placeholderBoxes join"><h2>Join</h2></div>
+        <div class="placeholderBoxesSpotlight">
+            <div class="placeholderBoxesSpotlightInner"><h2>Spotlight 1</h2></div>
+            <div class="placeholderBoxesSpotlightInner"><h2>Spotlight 2</h2></div>
+        </div>
+        <!-- <h1>Site Name: The Guilds' Chamber of Commerce</h1>
         <h2>Purpose</h2>
         <p> the goal of the chamber of commerce for guilds to promote legislation that will ensure the
             strict quality that comes from the tradition of organized guild trade. the guilds have served as a way of
@@ -67,7 +74,7 @@
         </p>
         <h2>Domain: GuildsChamberofCommerce.org</h2>
         <h2>Logo:</h2>
-        <img src="images/small-guild-seal.png" alt="Guild Smybol">
+        <img src="images/small-guild-seal.png" alt="Guild Smybol"> -->
     </main>
 
     <footer>
