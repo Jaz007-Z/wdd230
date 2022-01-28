@@ -14,3 +14,13 @@ let year = d.getFullYear();
 
 const lastUpdated = document.querySelector('#lastMod');
 lastUpdated.innerHTML = `<strong>Last updated: ${document.lastModified}</strong>`;
+
+
+
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var dateTime = date+' '+time;
+
+const currentTime = document.querySelector('#time');
+currentTime.innerHTML = `<strong> ${dateTime}</strong>`;

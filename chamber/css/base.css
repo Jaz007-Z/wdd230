@@ -10,6 +10,8 @@ header, footer {
 .headerTop {
     display: flex;
     align-items: center;
+    width: 80%;
+    justify-content: center;
 }
 
 
@@ -70,15 +72,27 @@ main {
     /* margin-top: auto; */
 }
 
-/* nav li {
+.spotlightBox3 {
+    display: none;
+}
+
+.navigation li {
+    /* display: flex; */
     list-style-type: none;
-    padding: .6em;
+    padding: 1.6em;
     border: .1em solid#444;
 
-} */
+}
+
+a {
+    color: #ffffff;
+    padding: .6em;
+}
+
 nav {
     display: flex;
     align-items: center;
+    padding: 1em;
     /* justify-content: center; */
 }
 
@@ -142,3 +156,4 @@ main {
 .join {
     display: none;
 }
+
