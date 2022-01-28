@@ -57,7 +57,8 @@ main {
     /* justify-content: center; */
     /* align-content: center; */
     align-items: center;
-    margin-top: 1em;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
     padding-top: 2em;
     padding-bottom: 2em;
     flex-direction: column;
@@ -79,8 +80,10 @@ main {
 .navigation li {
     /* display: flex; */
     list-style-type: none;
-    padding: 1.6em;
+    padding: .6em;
     border: .1em solid#444;
+    display: none;
+    /* padding: .3em; */
 
 }
 
@@ -91,7 +94,7 @@ a {
 
 nav {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     padding: 1em;
     /* justify-content: center; */
 }
@@ -113,10 +116,7 @@ nav {
     padding: .3em;
 }
 
-.navigation li {
-    display: none;
-    padding: 0;
-}
+
 
 .navigation li:first-child {
     display: block;
@@ -131,10 +131,10 @@ nav {
 	background-color: black;
 }
 
-a {
+/* a {
     color: #ffffff;
     padding: .6em;
-}
+} */
 h1 {
     /* color: #8a2be2; */
     color: #7851a9;
