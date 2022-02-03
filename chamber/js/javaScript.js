@@ -24,3 +24,15 @@ var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 
 const currentTime = document.querySelector('#time');
 currentTime.innerHTML = `<strong> ${date}</strong>`;
+
+const day = d.getDay()
+console.log("day: ", day)
+if (day < 3 ) {
+    document.querySelector(".banner").style.display="block";
+}
+
+
+document.querySelector(".banner__close").addEventListener("click", function () {
+    this.closest(".banner").style.display = "none";
+  });
+  
