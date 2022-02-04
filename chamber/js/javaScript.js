@@ -15,10 +15,19 @@ let year = d.getFullYear();
 const lastUpdated = document.querySelector('#lastMod');
 lastUpdated.innerHTML = `<strong>Last updated: ${document.lastModified}</strong>`;
 
+// var options = {  weekday: 'long', year: 'numeric', month: 'long'};
+// var options = {  year: 'numeric', weekday: 'short', month: 'long'};
+// var prnDt = d.toLocaleTimeString('en-us', options);
+// console.log(prnDt)
 
+var month= ["January","February","March","April","May","June","July",
+            "August","September","October","November","December"];
+const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
 var today = new Date();
-var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+// var date = weekday[today.getDay()] + ', ' + today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var date = weekday[today.getDay()] + ', ' + today.getDate() + " " + month[(today.getMonth()+1)] + ' ' + today.getFullYear();
+// var date = weekday[today.getDay()] + ', ' + (today.getMonth()+1);
 // var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 // var dateTime = date+' '+time;
 
@@ -36,3 +45,7 @@ document.querySelector(".banner__close").addEventListener("click", function () {
     this.closest(".banner").style.display = "none";
   });
   
+
+// const options = { weekday: 'long' };
+// const date = new Date();
+// console.log(date.toLocaleDateString('en-US', options));
