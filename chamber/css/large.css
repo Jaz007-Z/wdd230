@@ -87,7 +87,7 @@
         height: fit-content;
     }
 
-    .wind p, h2 {
+    .wind p, .wind h2 {
         padding: 0.5em;
         margin: 0;
         /* margin: 1em; */

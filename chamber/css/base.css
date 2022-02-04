@@ -1,6 +1,6 @@
 header, footer {
     /* background-color: rgb(175, 9, 9); */
-    background-color: rgb(196, 7, 7);
+    background-color: rgba(215,1,1,255);
     /* background-color: rgb(196, 7, 7); */
     display: flex;
     flex-flow: column;
@@ -9,15 +9,21 @@ header, footer {
     padding: .5em;
 }
 
-.placeholderBoxes p, h2 {
-    padding: .5em;
+/* .placeholderBoxes p, .placeholderBoxesSpotlightInner h2 {
+    padding: .3em;
+    margin: 0;
+    /* margin: 1em; 
+} */
+
+.placeholderBoxesSpotlightInner p, .placeholderBoxesSpotlightInner h2, 
+.placeholderBoxes p, .placeholderBoxes h2 {
+    padding: .3em;
     margin: 0;
     /* margin: 1em; */
 }
 
 
-
-.wind p, h2 {
+.wind p, .wind h2 {
     padding: 0;
     padding-left: .5em;
     margin: 0;
