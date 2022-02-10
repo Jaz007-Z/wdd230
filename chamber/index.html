@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/large.css">
 
     <script defer src="js/javaScript.js"></script>
+    <script defer src="js/weather.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=MedievalSharp&family=Metamorphous&display=swap"
@@ -67,8 +69,12 @@
 
     <main>
         <div class="placeholderBoxes hero">
-            <img class="hero_image" src="images/ren_italy.jpg" alt="Rennisance Italy">
-            <h2 class="hero_text">Hero testing</h2>
+            <picture>
+            <source media="(min-width: 55em)" srcset="images/wdd230-org-large.webp">
+            <source media="(min-width: 37.5em)" srcset="images/wdd230-org-medium.webp">
+            <img class="hero_image" src="images/wdd230-org-small.webp" alt="Rennisance Italy">
+            <!-- <h2 class="hero_text">Hero testing</h2> -->
+        </picture>
         </div>
         <div class="placeholderBoxes event">
             <h2>Event</h2>
@@ -77,18 +83,18 @@
         <div class="placeholderBoxes wheather">
             <div class="temperatureDes">
                 <h2>Weather</h2>
-                <p><strong>45F</strong></p>
+                <p><span id="temp"><strong>45</strong></span>&#176;F</p>
                 <p><strong>light rain</strong></p>
             </div>
 
             <div class="weatherBottom">
                 <div class="wind">
-                    <p>Wind Speed:&nbsp;</p>
-                    <p>2.5 km/h</p>
+                    <p>Wind Speed:&nbsp;<span id="speedWind">10</span> mph</p>
+                    <!-- <p>2.5 km/h</p> -->
                 </div>
                 <div class="wind">
-                    <p>Wind Chill:&nbsp;</p>
-                    <p>N/A</p>
+                    <p>Wind Chill:&nbsp;<span id="windChill"></span></p>
+                    <!-- <p>N/A</p> -->
                 </div>
             </div>
         </div>
