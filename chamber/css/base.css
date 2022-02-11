@@ -9,6 +9,10 @@ header, footer {
     padding: .5em;
 }
 
+footer p, header p {
+    font-size: large;
+}
+
 /* .placeholderBoxes p, .placeholderBoxesSpotlightInner h2 {
     padding: .3em;
     margin: 0;
