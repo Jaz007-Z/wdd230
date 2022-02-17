@@ -1,0 +1,17 @@
+body {
+    display: inline-grid;
+    background-color: bisque;
+}
+
+body picture {
+    margin-left: 2em;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
