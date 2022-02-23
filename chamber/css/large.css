@@ -93,6 +93,13 @@
         /* margin: 1em; */
     }
 
+    .hero_image {
+        object-fit: none;
+        /* width: auto;  */
+        height: 20em;
+        
+    }
+
     
 }
 
