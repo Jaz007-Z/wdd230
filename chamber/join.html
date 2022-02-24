@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="css/large.css">
 
     <script defer src="js/javaScript.js"></script>
-    <script defer src="js/weather.js"></script>
-    <script defer src="js/banner.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,26 +21,14 @@
 </head>
 
 <body>
-    <div class="banner">
-        <div class="banner__content">
-            <div class="banner__text">
-                🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
-            </div>
-            <button class="banner__close" type="button">
-                <span class="material-icons">
-                    ❌
-                </span>
-            </button>
-        </div>
-    </div>
     <header>
         <div class="headerTop">
             <a href="chamber/" class="mainPageLink">
-                <img src="images/small-guild-seal.webp" alt="Guild Smybol" width="75">
-                <div class="pageTitle">
-                    <h2 class="title">Guilds'</h2>
-                    <p class="title">Chamber of Commerce</p>
-                </a>
+            <img src="images/small-guild-seal.webp" alt="Guild Smybol" width="75">
+            <div class="pageTitle">
+                <h2 class="title">Guilds'</h2>
+                <p class="title">Chamber of Commerce</p>
+            </a>
             </div>
             <div class="social">
                 <a href="facebook.com" target="_blank">
@@ -66,72 +52,93 @@
                 </ul>
             </nav>
         </div>
-        <!-- <p id="lastMod"></p> -->
         <p id="time"></p>
     </header>
 
     <main>
-        <div class="placeholderBoxes hero">
-            <!-- <picture> -->
-            <!-- <source media="(min-width: 55em)" srcset="images/wdd230-org-large.webp">
-            <source media="(min-width: 37.5em)" srcset="images/wdd230-org-medium.webp"> -->
-            <img class="hero_image" src="images/ren_italy.jpg" alt="Rennisance Italy">
-            <!-- <h2 class="hero_text">Hero testing</h2> -->
-        <!-- </picture> -->
-        </div>
-        <div class="placeholderBoxes event">
-            <h2>Event</h2>
-            <p>Join us for the initation of Ezio Vetore as a guild master on Monday at 11AM. </p>
-        </div>
-        <div class="placeholderBoxes wheather">
-            <div class="temperatureDes">
-                <h2>Weather</h2>
-                <p><span id="temp"><strong>45</strong></span>&#176;F</p>
-                <p><strong>light rain</strong></p>
-            </div>
+        <h1>Join the Guilds' Chamber of Commerce</h1>
+        <div class="joinForm">
+            <form class="getInfo" action="thankyou.html" method="get">
+                <fieldset>
+                    <h2>Contact Info: </h2>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="cell-phone">Cell-phone</label><br>
+                    <input type="text" id="cell-phone" name="cell-phone" required><br>
+                </fieldset>
+                <fieldset>
+                    <h2>Busines Information</h2>
+                    <label for="bTitle">Busness title:</label><br>
+                    <input type="text" id="bTitle" name="bTitle" placeholder="optional"
+                        pattern="[A-Z][a-z-]]\s]{7,}"><br>
+                    <label for="bName">Busness name:</label><br>
+                    <input type="text" id="bName" name="bName" required><br>
+                    <label for="bDescription">Busness description:</label><br>
+                    <textarea rows="3" id="bDescription" name="bDescription" required></textarea><br>
+                </fieldset>
+                <fieldset>
+                    <!-- <datalist id="five">
+                    <option label="1">1</option>
+                    <option label="2">2</option>
+                    <option label="3">3</option>
+                    <option label="4">4</option>
+                    <option label="5">5</option>
+                    
+                </datalist> -->
+                    <label>Membership Level:</label>
+                    <div class="stars">
+                        <input type="radio" id="fourstar" name="stars" value="4" required><label id="fourstar"
+                            for="fourstar"></label>
+                        <input type="radio" id="threestar" name="stars" value="3" required><label id="threestar"
+                            for="threestar"></label>
+                        <input type="radio" id="twostar" name="stars" value="2" required><label id="twostar"
+                            for="twostar"></label>
+                        <input type="radio" id="onestar" name="stars" value="1" required><label id="onestar"
+                            for="onestar"></label>
+                    </div>
+                </fieldset>
+                <input type="submit" value="submit">
+            </form>
 
-            <div class="weatherBottom">
-                <div class="wind">
-                    <p>Wind Speed:&nbsp;<span id="speedWind">10</span> mph</p>
-                    <!-- <p>2.5 km/h</p> -->
-                </div>
-                <div class="wind">
-                    <p>Wind Chill:&nbsp;<span id="windChill"></span></p>
-                    <!-- <p>N/A</p> -->
-                </div>
-            </div>
-        </div>
-        <div class="placeholderBoxes news">
-            <h2>News Release</h2>
-            <p>We are proud to annouce Ezio Vetore as a new guild master for blacksmithing. He will
-                be an excellent addition to the owners and influencer of guild policy as a master
-                of his craft who crafted the finest dagger we
-                have ever seen to earn his spot as a guild master.
+            <!-- <div class="membershipInfo">
+            <h2>Membership Info</h2>
+            <h3>Non-profit Membership (brown)</h3>
+            <p>for non profit organziation, no fee to join as a refelction of our charity</p>
+            <h3>Bronze Membership: $1,000 Yearly</h3>
+            <p>For journeymen and those with a smaller budget. This proides training oppourtunities and contacts.</p>
+            <h3>Silver Membership: $10,000 Yearly</h3>
+            <p>For Guild Masters and Jourment looking to advance soon. This includes bronze benefits along with advertsising on the main 
+                page, leadership training, and event discounts. 
             </p>
-        </div>
-        <div class="placeholderBoxes join">
-            <!-- <h2>Join</h2> -->
-            <button type="button">Join Us</button>
-            <p>Join the chamber and further the goals and profits of your guild!</p>
-        </div>
-        <div class="placeholderBoxesSpotlight">
-            <div class="placeholderBoxesSpotlightInner">
-                <h2>Shop at a Guild</h2>
-                <img src="images/blacksmith.png" alt="blacksmith" width="80">
-                <p>blacksmith.com</p>
-            </div>
-            <div class="placeholderBoxesSpotlightInner">
-                <h2>Shop at a Guild</h2>
-                <img src="images/blacksmith.png" alt="blacksmith" width="80">
-                <p>blacksmith.com</p>
-            </div>
-            <div class="placeholderBoxesSpotlightInner spotlightBox3">
-                <h2>Shop at a Guild</h2>
-                <img src="images/blacksmith.png" alt="blacksmith" width="80">
-                <p>blacksmith.com</p>
-            </div>
-        </div>
+            <h3>Gold Membership: $20,000 Yearly</h3>
+            <p>For Guild masters. this provides bronze and silver benefits along with voting power to make the decisions for the 
+                Guilds' Chamber of Commerce.</p>
+        </div> -->
 
+            <div class="membershipInfo">
+                <h2>Membership Info</h2>
+                <div class="membershipInfoInner">
+                    <h3>Non-profit Membership (brown)</h3>
+                    <p>For non profit organziation, no fee to join as a refelction of our charity</p>
+                </div>
+                <div class="membershipInfoInner">
+                    <h3>Bronze Membership: $1,000 Yearly</h3>
+                    <p>For journeymen and those with a smaller budget. This proides training oppourtunities and
+                        contacts.</p>
+                </div>
+                <div class="membershipInfoInner">
+                    <h3>Silver Membership: $10,000 Yearly</h3>
+                    <p>For Guild Masters and Jourment looking to advance soon. This includes bronze benefits along with
+                        advertsising on the main
+                        page, leadership training, and event discounts.
+                    </p>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -149,9 +156,7 @@
             <p>WDD 230 Project</p>
             <p id="lastMod"></p>
         </div>
-        <!-- <h2>&copy; 2022 | James A. Zimsky | VA</h2> -->
-        <!-- <h2 id="copyright"></h2> -->
-        <!-- <p id="lastMod"></p> -->
+
     </footer>
 </body>
 

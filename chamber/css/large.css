@@ -103,6 +103,12 @@
     
 }
 
+/* join specfic */
+.membershipInfo {
+    width: 80%;
+}
+/* end */
+
 @media (min-width: 65em) {
     /* discovery page specific*/
     .discoveryImages {

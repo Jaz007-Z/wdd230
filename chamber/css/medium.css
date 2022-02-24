@@ -63,4 +63,27 @@
         box-shadow: .5em .5em .3em grey;
     }
 
+    .joinForm {
+        display: grid;
+    }
+
+    .getInfo {
+        grid-column: 1/2;
+        justify-self: center;
+    }
+
+    .membershipInfo {
+        grid-column: 2/3;
+        height: fit-content;
+        /* justify-self: center; */
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .thankyouText{
+        justify-self: center;
+    }
+
 }

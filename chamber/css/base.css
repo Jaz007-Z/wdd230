@@ -102,7 +102,7 @@ main {
     /* padding-inline: .5em; */
 }
 
-.placeholderBoxesSpotlight {
+.placeholderBoxesSpotlight, .membershipInfo {
     display: flex;
     background-color: #faf2e7;
     /* width: 100%; */
@@ -119,13 +119,17 @@ main {
     
 }
 
-.placeholderBoxesSpotlightInner {
+.placeholderBoxesSpotlightInner, .membershipInfoInner {
     border: solid black;
     width: 80%;
-    height: 14rem;
+    /* height: 14rem; */
     margin: 0;
     /* margin-top: auto; */
     text-align: center;
+}
+.placeholderBoxesSpotlightInner {
+    height: 14rem;
+
 }
 
 .spotlightBox3 {
@@ -189,10 +193,7 @@ nav {
 	background-color: black;
 }
 
-/* a {
-    color: #ffffff;
-    padding: .6em;
-} */
+
 h1 {
     /* color: #8a2be2; */
     color: #7851a9;
@@ -275,6 +276,14 @@ button {
     color: #ffffff;
   }
 
+  .mainPageLink {
+      color: #000;
+  }
+
+
+  .mainPageLink:hover {
+      color: white;
+  }
 
   /* discovery page speciic*/
    #daysSince {
@@ -284,4 +293,68 @@ button {
    }
   
 
+
+/* join page specific */
+.stars > label {
+	color: brown;
+	width: 30px;
+	height: 30px;
+	font-size: 2rem;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	/* caret-color: rgba(0, 0, 0, 0); remove blinking cursor */
+}
+
+#fourstar {
+    color: goldenrod;
+}
+#threestar {
+    color: silver;
+}
+#twostar {
+    color: #CD7F32;
+}
+
+.stars > label:hover, #onestar:hover, #twostar:hover
+#threestar:hover, #fourstar:hover {
+	color: #000;
+}
+
+
+.stars > label::before {
+	content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+	content: "\2605";
+}
+
+.stars {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
+}
+
+input[type="radio"] {
+	display: none;
+	position: relative;
+	caret-color: rgba(0, 0, 0, 0);
+}
+
+fieldset {
+    margin: 1em;
+}
+
+fieldset input, fieldset textarea {
+    padding: .5em;
+}
+
+.membershipInfo {
+    justify-self: center;
+}
+
+.joinForm {
+    display: grid;
+}
 
