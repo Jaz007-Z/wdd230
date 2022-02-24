@@ -33,6 +33,7 @@
   
   th, .beat {
     background-color: rgb(8, 131, 153);
+    color: white;
   }
   .tableTitle {
       font-size: x-large;
@@ -50,11 +51,11 @@
       background-color: rgb(8, 131, 153);
   } */
   
-  tr:nth-child(even) td {
+  tr:nth-child(even)  {
     background-color:lightcoral;
   }
   
-  tr:nth-child(odd) td {
+  tr:nth-child(odd)  {
     background-color:lightcyan;
   }
   
