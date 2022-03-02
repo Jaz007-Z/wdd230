@@ -1,0 +1,17 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    
+}
+
+section {
+    text-align: center;
+    background-color: lightblue;
+    padding: 2em;
+    margin: 3em;
+}
