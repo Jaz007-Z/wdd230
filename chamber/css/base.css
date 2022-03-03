@@ -1,6 +1,7 @@
-header, footer {
+header,
+footer {
     /* background-color: rgb(175, 9, 9); */
-    background-color: rgba(215,1,1,255);
+    background-color: rgba(215, 1, 1, 255);
     /* background-color: rgb(196, 7, 7); */
     display: flex;
     flex-flow: column;
@@ -9,7 +10,8 @@ header, footer {
     padding: .5em;
 }
 
-footer p, header p {
+footer p,
+header p {
     font-size: large;
 }
 
@@ -19,15 +21,18 @@ footer p, header p {
     /* margin: 1em; 
 } */
 
-.placeholderBoxesSpotlightInner p, .placeholderBoxesSpotlightInner h2, 
-.placeholderBoxes p, .placeholderBoxes h2 {
+.placeholderBoxesSpotlightInner p,
+.placeholderBoxesSpotlightInner h2,
+.placeholderBoxes p,
+.placeholderBoxes h2 {
     padding: .3em;
     margin: 0;
     /* margin: 1em; */
 }
 
 
-.wind p, .wind h2 {
+.wind p,
+.wind h2 {
     padding: 0;
     padding-left: .5em;
     margin: 0;
@@ -56,13 +61,14 @@ footer p, header p {
     object-fit: cover;
     width: 100%;
     height: 10em;
-    
+
 }
+
 .hero_text {
-  position: absolute;
-  top: 1em;
-  left: 1em;
-  color: #7851a9;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    color: #7851a9;
 }
 
 .footer1Address {
@@ -86,7 +92,7 @@ footer p, header p {
 
 
 main {
-    max-width: 70em;
+    max-width: 90em;
     margin: auto;
     padding: .5em;
     /* background-color: #faf2e7; */
@@ -102,7 +108,8 @@ main {
     /* padding-inline: .5em; */
 }
 
-.placeholderBoxesSpotlight, .membershipInfo {
+.placeholderBoxesSpotlight,
+.membershipInfo {
     display: flex;
     background-color: #faf2e7;
     /* width: 100%; */
@@ -116,10 +123,11 @@ main {
     padding-top: 2em;
     padding-bottom: 2em;
     flex-direction: column;
-    
+
 }
 
-.placeholderBoxesSpotlightInner, .membershipInfoInner {
+.placeholderBoxesSpotlightInner,
+.membershipInfoInner {
     border: solid black;
     width: 80%;
     /* height: 14rem; */
@@ -127,6 +135,7 @@ main {
     /* margin-top: auto; */
     text-align: center;
 }
+
 .placeholderBoxesSpotlightInner {
     height: 14rem;
 
@@ -166,13 +175,14 @@ nav {
     margin: 0;
     padding: 0;
 }
+
 .pageTitle {
-   padding: 0.1em;
+    padding: 0.1em;
 }
 
 .social {
     display: flex;
-    
+
 }
 
 .social a {
@@ -185,12 +195,12 @@ nav {
 }
 
 .responsive li {
-	display: block;
+    display: block;
 }
 
 .navigation a:hover {
-	color: white;
-	background-color: black;
+    color: white;
+    background-color: black;
 }
 
 
@@ -210,7 +220,7 @@ p {
 
 main {
     /* background-color: #a956fb; */
-    background-color:blanchedalmond;
+    background-color: blanchedalmond;
 }
 
 .join {
@@ -225,7 +235,7 @@ button {
 
 .weather {
     display: block;
-    
+
 }
 
 .weatherBottom {
@@ -249,104 +259,109 @@ button {
 .banner {
     background: #009579;
     display: none;
-  }
-  
-  .banner__content {
+}
+
+.banner__content {
     padding: 16px;
     max-width: 500px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-  }
-  
-  .banner__text {
+}
+
+.banner__text {
     flex-grow: 1;
     line-height: 1.4;
     font-family: "Quicksand", sans-serif;
-  }
-  
-  .banner__close {
+}
+
+.banner__close {
     background: none;
     border: none;
     cursor: pointer;
-  }
-  
-  .banner__text,
-  .banner__close > span {
+}
+
+.banner__text,
+.banner__close>span {
     color: #ffffff;
-  }
+}
 
-  .mainPageLink {
-      color: #000;
-  }
+.mainPageLink {
+    color: #000;
+}
 
 
-  .mainPageLink:hover {
-      color: white;
-  }
+.mainPageLink:hover {
+    color: white;
+}
 
-  /* discovery page speciic*/
-   #daysSince {
-       text-align: center;
-       font-weight: bold;
-       font-size: large;
-   }
-  
+/* discovery page speciic*/
+#daysSince {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
 
 
 /* join page specific */
-.stars > label {
-	color: brown;
-	width: 30px;
-	height: 30px;
-	font-size: 2rem;
-	margin-left: 5px;
-	display: flex;
-	align-items: center;
-	/* caret-color: rgba(0, 0, 0, 0); remove blinking cursor */
+.stars>label {
+    color: brown;
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    /* caret-color: rgba(0, 0, 0, 0); remove blinking cursor */
 }
 
 #fourstar {
     color: goldenrod;
 }
+
 #threestar {
     color: silver;
 }
+
 #twostar {
     color: #CD7F32;
 }
 
-.stars > label:hover, #onestar:hover, #twostar:hover
-#threestar:hover, #fourstar:hover {
-	color: #000;
+.stars>label:hover,
+#onestar:hover,
+#twostar:hover #threestar:hover,
+#fourstar:hover {
+    color: #000;
 }
 
 
-.stars > label::before {
-	content: "\2606";
+.stars>label::before {
+    content: "\2606";
 }
 
-.stars input:checked ~ label::before {
-	content: "\2605";
+.stars input:checked~label::before {
+    content: "\2605";
 }
 
 .stars {
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: left;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
 }
 
 input[type="radio"] {
-	display: none;
-	position: relative;
-	caret-color: rgba(0, 0, 0, 0);
+    display: none;
+    position: relative;
+    caret-color: rgba(0, 0, 0, 0);
 }
 
 fieldset {
     margin: 1em;
 }
 
-fieldset input, fieldset textarea {
+fieldset input,
+fieldset textarea {
     padding: .5em;
 }
 
@@ -358,3 +373,99 @@ fieldset input, fieldset textarea {
     display: grid;
 }
 
+/* directory specific */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    /* column-gap: 0;
+    row-gap: 0; */
+    justify-items: center;
+}
+
+.cards section {
+    background-color: #faf2e7;
+    border: solid rgba(215, 1, 1, 255);
+    max-width: 20em;
+    margin: 1em;
+    padding: .5em;
+    text-align: center;
+    justify-content: center;
+}
+
+.cards img {
+    /* width: auto;
+    height: 25%; */
+    width: auto;
+    max-width: 10em;
+    height: 8em;
+}
+
+.cards section p:first-child {
+    font-size: large;
+}
+
+
+/* .switchCardView {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    column-gap: 0;
+    row-gap: 0;
+} */
+
+.switchListView {
+    display: block;
+}
+
+.switchListView img {
+    display: none;
+}
+
+.switchListView section {
+    /* margin: 0; */
+    display: flex;
+}
+.switchListView section p {
+    /* margin: 0; */
+    margin: 1em;
+    width: 10em;
+    align-self: center;
+}
+.switchListView section a, .cards section a {
+    margin: 1;
+    color: blue;
+    align-self: center;
+
+}
+
+
+.switchListView section:first-child {
+    background-color: #faf2e7;
+    border-top: solid rgba(215, 1, 1, 255);
+}
+
+.switchListView section:nth-child(even) {
+    background-color: #faf2e7;
+    border: solid rgba(215, 1, 1, 255);
+}
+
+.switchListView section:nth-child(odd) {
+    background-color: lightcyan;
+    border-left: solid rgba(215, 1, 1, 255);
+    border-right: solid rgba(215, 1, 1, 255);
+
+
+}
+
+.selectViewDirectory ul {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.selectViewDirectory ul li {
+    margin: 1em;
+
+}
+
+.selectViewDirectory a {
+ color: black;
+}

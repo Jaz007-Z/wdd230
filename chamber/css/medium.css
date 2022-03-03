@@ -87,3 +87,9 @@
     }
 
 }
+
+
+/* directory specific */
+.cards section {
+    max-width: 23em;
+}

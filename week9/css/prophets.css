@@ -16,7 +16,7 @@ section {
     margin: 3em;
 }
 
-img/* img {
-    width: auto;
-    max-width: 405px;
-} */
+img {
+    width: 100%;
+    /* max-width: 405px; */
+}

@@ -1,0 +1,91 @@
+{
+    "businesses": [
+        {
+            "name": "Spritus Keysmith",
+            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
+            "phoneNumber": "+39-2342-234-2398",
+            "website": "heatwaker.com",
+            "businessLogo": "placeholder",
+            "imageurl": "images/logos/spritus.png"
+            
+        },
+        {
+            "name": "Heatwaker",
+            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
+            "phoneNumber": "+39-2342-234-2398",
+            "website": "heatwaker.com",
+            "businessLogo": "placeholder" 
+        },
+        {
+            "name": "The Blacksmith",
+            "address": "Via Silvio Spaventa 134 Fontanelle Cuneo 12012",
+            "phoneNumber": "+39-2342-234-2178",
+            "website": "heatwaker.com",
+            "businessLogo": "placeholder",
+            "imageurl": "images/logos/blacksmith-iron.png"
+        },
+        {
+            "name": "Heatwaker",
+            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
+            "phoneNumber": "+39-2342-234-2398",
+            "website": "heatwaker.com",
+            "businessLogo": "placeholder"
+        },
+        {
+            "name": "Heatwaker",
+            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
+            "phoneNumber": "+39-2342-234-2398",
+            "website": "heatwaker.com",
+            "businessLogo": "placeholder"
+        },
+        {
+            "name": "Heatwaker",
+            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
+            "phoneNumber": "+39-2342-234-2398",
+            "website": "heatwaker.com",
+            "businessLogo": "placeholder"
+        },
+        {
+            "name": "Heatwaker",
+            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
+            "phoneNumber": "+39-2342-234-2398",
+            "website": "heatwaker.com",
+            "businessLogo": "placeholder"
+        },
+        {
+            "name": "Heatwaker",
+            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
+            "phoneNumber": "+39-2342-234-2398",
+            "website": "heatwaker.com",
+            "businessLogo": "placeholder"
+        },
+        {
+            "name": "Heatwaker",
+            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
+            "phoneNumber": "+39-2342-234-2398",
+            "website": "heatwaker.com",
+            "businessLogo": "placeholder"
+        },
+        {
+            "name": "Heatwaker",
+            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
+            "phoneNumber": "+39-2342-234-2398",
+            "website": "heatwaker.com",
+            "businessLogo": "placeholder"
+        },
+        {
+            "name": "Heatwaker",
+            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
+            "phoneNumber": "+39-2342-234-2398",
+            "website": "heatwaker.com",
+            "businessLogo": "placeholder"
+        },
+        {
+            "name": "Heatwaker",
+            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
+            "phoneNumber": "+39-2342-234-2398",
+            "website": "heatwaker.com",
+            "businessLogo": "placeholder"
+        }
+    ]
+}
