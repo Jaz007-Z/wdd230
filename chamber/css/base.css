@@ -390,13 +390,14 @@ fieldset textarea {
     padding: .5em;
     text-align: center;
     justify-content: center;
+    min-width: 340px;
 }
 
 .cards img {
     /* width: auto;
     height: 25%; */
     width: auto;
-    max-width: 10em;
+    max-width: 20em;
     height: 8em;
 }
 
@@ -468,4 +469,8 @@ fieldset textarea {
 
 .selectViewDirectory a {
  color: black;
+}
+
+.selectViewDirectory li {
+    list-style: none;
 }

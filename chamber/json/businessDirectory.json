@@ -4,88 +4,91 @@
             "name": "Spritus Keysmith",
             "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
             "phoneNumber": "+39-2342-234-2398",
-            "website": "heatwaker.com",
+            "website": "spritus.com",
             "businessLogo": "placeholder",
             "imageurl": "images/logos/spritus.png"
             
         },
         {
-            "name": "Heatwaker",
-            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
-            "phoneNumber": "+39-2342-234-2398",
-            "website": "heatwaker.com",
-            "businessLogo": "placeholder" 
+            "name": "Mcgauge Carpentry",
+            "address": "Via Torvo Rota 34 Motello Cuneo 12122",
+            "phoneNumber": "+39-2332-234-2318",
+            "website": "mcgauge.com",
+            "businessLogo": "placeholder",
+            "imageurl": "images/logos/carpenter.png"
         },
         {
             "name": "The Blacksmith",
             "address": "Via Silvio Spaventa 134 Fontanelle Cuneo 12012",
             "phoneNumber": "+39-2342-234-2178",
-            "website": "heatwaker.com",
+            "website": "blacksmith.com",
             "businessLogo": "placeholder",
             "imageurl": "images/logos/blacksmith-iron.png"
         },
         {
-            "name": "Heatwaker",
-            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
+            "name": "Honeycut",
+            "address": "Via Tello Servo 34 Fontanelle Cuneo 36012",
             "phoneNumber": "+39-2342-234-2398",
-            "website": "heatwaker.com",
-            "businessLogo": "placeholder"
+            "website": "honeycut.com",
+            "businessLogo": "placeholder",
+            "imageurl": "images/logos/honeycut.png"
         },
         {
-            "name": "Heatwaker",
-            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
-            "phoneNumber": "+39-2342-234-2398",
-            "website": "heatwaker.com",
-            "businessLogo": "placeholder"
+            "name": "Chanel Art",
+            "address": "Via Tello Serve 35 Fontanelle Cuneo 52712",
+            "phoneNumber": "+39-2052-234-2398",
+            "website": "chanel.com",
+            "businessLogo": "placeholder",
+            "imageurl": "images/logos/chanel.png"
         },
         {
-            "name": "Heatwaker",
-            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
-            "phoneNumber": "+39-2342-234-2398",
-            "website": "heatwaker.com",
-            "businessLogo": "placeholder"
+            "name": "Black Diamond",
+            "address": "Via Bernardino Rota 37 Fontanelle Cuneo 13456",
+            "phoneNumber": "+39-2342-234-2198",
+            "website": "blackdiamond.com",
+            "imageurl": "images/logos/blackdiamond.png"
         },
         {
-            "name": "Heatwaker",
+            "name": "The Workshop",
             "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
-            "phoneNumber": "+39-2342-234-2398",
-            "website": "heatwaker.com",
-            "businessLogo": "placeholder"
+            "phoneNumber": "+39-2342-554-2318",
+            "website": "workshop.com",
+            "imageurl": "images/logos/workshop.png"
         },
         {
-            "name": "Heatwaker",
-            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
-            "phoneNumber": "+39-2342-234-2398",
-            "website": "heatwaker.com",
-            "businessLogo": "placeholder"
+            "name": "Shoe Repair",
+            "address": "Via Bernardino Selle 34 Gontello Cuneo 51013",
+            "phoneNumber": "+39-2342-234-2488",
+            "website": "shoerepair.com",
+            "imageurl": "images/logos/shoerepair.png" 
         },
         {
-            "name": "Heatwaker",
-            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
-            "phoneNumber": "+39-2342-234-2398",
-            "website": "heatwaker.com",
-            "businessLogo": "placeholder"
+            "name": "Cobbler",
+            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 55512",
+            "phoneNumber": "+39-2342-234-5556",
+            "website": "cobbler.com",
+            "imageurl": "images/logos/cobbler.png" 
         },
         {
-            "name": "Heatwaker",
+            "name": "Weilding",
             "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
             "phoneNumber": "+39-2342-234-2398",
-            "website": "heatwaker.com",
-            "businessLogo": "placeholder"
+            "website": "weilding.com",
+            "imageurl": "images/logos/weilding.png" 
         },
         {
-            "name": "Heatwaker",
-            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
-            "phoneNumber": "+39-2342-234-2398",
-            "website": "heatwaker.com",
-            "businessLogo": "placeholder"
+            "name": "Carabinieri",
+            "address": "Via Bernardino Rota 44 Fontanelle Cuneo 11112",
+            "phoneNumber": "+39-2342-555-2398",
+            "website": "carabinieri.com",
+            "imageurl": "images/logos/carabinieri.png" 
         },
         {
-            "name": "Heatwaker",
-            "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
-            "phoneNumber": "+39-2342-234-2398",
-            "website": "heatwaker.com",
-            "businessLogo": "placeholder"
+            "name": "Forge",
+            "address": "Via Smithy Rota 34 Fontanelle Cuneo 66678",
+            "phoneNumber": "+39-2342-454-7778",
+            "website": "forge.com",
+            "imageurl": "images/logos/forge.png" 
         }
     ]
 }
