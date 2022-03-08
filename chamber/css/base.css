@@ -327,6 +327,16 @@ button {
 #twostar {
     color: #CD7F32;
 }
+.bronze {
+    border: solid #CD7F32;
+}
+.silver {
+    border: solid silver;
+}
+
+.gold {
+    border: solid goldenrod;
+}
 
 .stars>label:hover,
 #onestar:hover,
@@ -354,6 +364,15 @@ input[type="radio"] {
     display: none;
     position: relative;
     caret-color: rgba(0, 0, 0, 0);
+}
+.joinGuildButton {
+    padding: .3em;
+}
+.joinGuildButtonCentering {
+    text-align: center;
+}
+.getInfo {
+    /* text-align: center; */
 }
 
 fieldset {
