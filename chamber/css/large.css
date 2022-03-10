@@ -1,9 +1,7 @@
 @media (min-width: 55em) {
 
     /* Flex *********************/
-    main {
-        display: grid;
-    }
+
 
     .navigation li {
         display: flex;
@@ -55,15 +53,15 @@
         grid-row: 1/2;
     }
 
-    .wheather {
+    .weather {
         /* order: 0; */
         grid-column: 1/2;
-        margin-left: 0;
+        /* margin-left: 0; marginnnnn */
     }
 
     .placeholderBoxes {
         /* margin: 1.5em; */
-        margin-right: 1em;
+        /* margin-right: 1em; marginnnnn */
         width: inherit;
         height: auto;
 
@@ -84,7 +82,7 @@
         /* order: 1; */
         grid-column: 2/4;
         grid-row: 1/3;
-        height: fit-content;
+        /* height: fit-content; */
     }
 
     .wind p, .wind h2 {
@@ -94,9 +92,9 @@
     }
 
     .hero_image {
-        object-fit: none;
+        /* object-fit: none; */
         /* width: auto;  */
-        height: 20em;
+        /* height: 20em; */
         
     }
 

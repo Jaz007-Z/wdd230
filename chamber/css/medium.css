@@ -2,9 +2,6 @@
     @media (min-width: 41.5em) {
 
     /* Flex *********************/
-    main {
-        display: grid;
-    }
 
 
     .join {
@@ -29,15 +26,15 @@
         /* width: auto; */
     }
 
-    .wheather {
+    .weather {
         order: 5;
         grid-column: 3/4;
-        margin-left: 1em;
+        /* margin-left: 1em; marginnnnnnn */
         width: auto;
     }
 
     .placeholderBoxes {
-        margin-top: 1.5em;
+        /* margin-top: 1.5em; marginnnnnnn */
     }
 
     .placeholderBoxesSpotlight {
