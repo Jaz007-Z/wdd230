@@ -29,13 +29,9 @@
     .weather {
         order: 5;
         grid-column: 3/4;
-        /* margin-left: 1em; marginnnnnnn */
         width: auto;
     }
 
-    .placeholderBoxes {
-        /* margin-top: 1.5em; marginnnnnnn */
-    }
 
     .placeholderBoxesSpotlight {
         flex-direction: inherit;
@@ -72,7 +68,6 @@
     .membershipInfo {
         grid-column: 2/3;
         height: fit-content;
-        /* justify-self: center; */
     }
 
     h1 {

@@ -6,7 +6,6 @@ footer {
     display: flex;
     flex-flow: column;
     align-items: center;
-    /* justify-content: center; */
     padding: .5em;
 }
 
@@ -39,11 +38,6 @@ header p {
     /* margin: 1em; */
 }
 
-/* .strong p, h2 {
-    padding: 0.5em;
-    margin: 0;
-
-} */
 
 .headerTop {
     display: flex;
@@ -77,17 +71,13 @@ header p {
 }
 
 .footer1 {
-    /* border-top: solid black; */
-    /* justify-content: center;
-    justify-items: center; */
+
     text-align: center;
 }
 
 
 .footer2 {
     border-top: solid black;
-    /* justify-content: center;
-    justify-items: center; */
 }
 
 
@@ -103,27 +93,20 @@ main {
 }
 
 .placeholderBoxes {
-    /* background-color: gray; */
     background-color: #faf2e7;
     width: 100%;
     height: 10em;
-    /* padding: .5em; */
-    /* margin-top: 1em; marginnnnnnnnnnnnn */
-    /* padding-inline: .5em; */
 }
 
 .weather {
     display: grid;
 }
-/* .weatherBottom, .temperatureDes {
-    grid-column: 1/2;
-} */
+
 .weatherNumbers {
     grid-column: 1/2;
 }
 .weatherFig {
     grid-column: 2/3;
-    /* grid-row: 1/3; */
     align-self: center;
     justify-self: left;
     margin: .2em;
@@ -133,14 +116,7 @@ main {
 .membershipInfo {
     display: flex;
     background-color: #faf2e7;
-    /* width: 100%; */
-    /* height: 22em; */
-    /* justify-items: center; */
-    /* justify-content: center; */
-    /* align-content: center; */
     align-items: center;
-    /* margin-top: 1em; marginnnnnnnn */
-    /* margin-bottom: 1.4em; */
     padding-top: 2em;
     padding-bottom: 2em;
     flex-direction: column;
@@ -155,9 +131,7 @@ main {
 .membershipInfoInner {
     border: solid black;
     width: 80%;
-    /* height: 14rem; */
     margin: 0;
-    /* margin-top: auto; */
     text-align: center;
 }
 
@@ -175,25 +149,19 @@ main {
 }
 
 .navigation li {
-    /* display: flex; */
     list-style-type: none;
     padding: .6em;
     border: .1em solid#444;
     display: none;
-    /* padding: .3em; */
-
 }
 
 a {
     color: #ffffff;
-    /* padding: .6em; */
 }
 
 nav {
     display: flex;
-    /* align-items: center; */
     padding: 1em;
-    /* justify-content: center; */
 }
 
 .title {
@@ -258,18 +226,9 @@ button {
     font-size: 2em;
 }
 
-
-/* .weatherBottom {
-    margin-top: .5em;
-} */
-
 .weatherNumbers p {
     padding: .5em;
 }
-
-/* .wind p {
-    padding: 0;
-} */
 
 .wind {
     display: flex;
@@ -417,8 +376,6 @@ fieldset textarea {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-    /* column-gap: 0;
-    row-gap: 0; */
     justify-items: center;
 }
 
