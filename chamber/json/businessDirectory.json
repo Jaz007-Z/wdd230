@@ -6,7 +6,8 @@
             "phoneNumber": "+39-2342-234-2398",
             "website": "spritus.com",
             "businessLogo": "placeholder",
-            "imageurl": "images/logos/spritus.png"
+            "imageurl": "images/logos/spritus.png",
+            "memberRank": "Gold"
             
         },
         {
@@ -15,7 +16,8 @@
             "phoneNumber": "+39-2332-234-2318",
             "website": "mcgauge.com",
             "businessLogo": "placeholder",
-            "imageurl": "images/logos/carpenter.png"
+            "imageurl": "images/logos/carpenter.png",
+            "memberRank": "Gold"
         },
         {
             "name": "The Blacksmith",
@@ -23,7 +25,8 @@
             "phoneNumber": "+39-2342-234-2178",
             "website": "blacksmith.com",
             "businessLogo": "placeholder",
-            "imageurl": "images/logos/blacksmith-iron.png"
+            "imageurl": "images/logos/blacksmith-iron.png",
+            "memberRank": "Gold"
         },
         {
             "name": "Honeycut",
@@ -31,7 +34,8 @@
             "phoneNumber": "+39-2342-234-2398",
             "website": "honeycut.com",
             "businessLogo": "placeholder",
-            "imageurl": "images/logos/honeycut.png"
+            "imageurl": "images/logos/honeycut.png",
+            "memberRank": "Gold"
         },
         {
             "name": "Chanel Art",
@@ -39,56 +43,64 @@
             "phoneNumber": "+39-2052-234-2398",
             "website": "chanel.com",
             "businessLogo": "placeholder",
-            "imageurl": "images/logos/chanel.png"
+            "imageurl": "images/logos/chanel.png",
+            "memberRank": "Gold"
         },
         {
             "name": "Black Diamond",
             "address": "Via Bernardino Rota 37 Fontanelle Cuneo 13456",
             "phoneNumber": "+39-2342-234-2198",
             "website": "blackdiamond.com",
-            "imageurl": "images/logos/blackdiamond.png"
+            "imageurl": "images/logos/blackdiamond.png",
+            "memberRank": "Silver"
         },
         {
             "name": "The Workshop",
             "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
             "phoneNumber": "+39-2342-554-2318",
             "website": "workshop.com",
-            "imageurl": "images/logos/workshop.png"
+            "imageurl": "images/logos/workshop.png",
+            "memberRank": "Silver"
         },
         {
             "name": "Shoe Repair",
             "address": "Via Bernardino Selle 34 Gontello Cuneo 51013",
             "phoneNumber": "+39-2342-234-2488",
             "website": "shoerepair.com",
-            "imageurl": "images/logos/shoerepair.png" 
+            "imageurl": "images/logos/shoerepair.png",
+            "memberRank": "Silver"
         },
         {
             "name": "Cobbler",
             "address": "Via Bernardino Rota 34 Fontanelle Cuneo 55512",
             "phoneNumber": "+39-2342-234-5556",
             "website": "cobbler.com",
-            "imageurl": "images/logos/cobbler.png" 
+            "imageurl": "images/logos/cobbler.png",
+            "memberRank": "Silver"
         },
         {
             "name": "Weilding",
             "address": "Via Bernardino Rota 34 Fontanelle Cuneo 12012",
             "phoneNumber": "+39-2342-234-2398",
             "website": "weilding.com",
-            "imageurl": "images/logos/weilding.png" 
+            "imageurl": "images/logos/weilding.png",
+            "memberRank": "Silver"
         },
         {
             "name": "Carabinieri",
             "address": "Via Bernardino Rota 44 Fontanelle Cuneo 11112",
             "phoneNumber": "+39-2342-555-2398",
             "website": "carabinieri.com",
-            "imageurl": "images/logos/carabinieri.png" 
+            "imageurl": "images/logos/carabinieri.png",
+            "memberRank": "Silver"
         },
         {
             "name": "Forge",
             "address": "Via Smithy Rota 34 Fontanelle Cuneo 66678",
             "phoneNumber": "+39-2342-454-7778",
             "website": "forge.com",
-            "imageurl": "images/logos/forge.png" 
+            "imageurl": "images/logos/forge.png",
+            "memberRank": "Silver"
         }
     ]
 }

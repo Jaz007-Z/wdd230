@@ -2,19 +2,12 @@ const cardView = document.querySelector('.cardViewButton');
 // const selectView = document.querySelector('.cards');
 const listView = document.querySelector('.listViewButon');
 
-// cardView.addEventListener('click', () => {cards.classList.toggle('switchListView')}, false);
-
-
 cardView.addEventListener('click', () => {cards.classList.add('cards')}, once="true");
 cardView.addEventListener('click', () => {cards.classList.remove('switchListView')}, once="true");
 
 listView.addEventListener('click', () => {cards.classList.add('switchListView')}, once="true");
 listView.addEventListener('click', () => {cards.classList.remove('cards')}, once="true");
 
-
-// const selectListView = document.querySelector('.list');
-
-// cardView.addEventListener('click', () => {list.classList.toggle('switchListView')}, false);
 
 
 
@@ -28,7 +21,6 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
     const businesss = jsonObject['businesses'];
     businesss.forEach(displayBusinesses);
   });
@@ -40,7 +32,6 @@ fetch(requestURL)
 function displayBusinesses(business) {
     // Create elements to add to the document
     let card = document.createElement('section');
-    // let h2 = document.createElement('h2');
     let logo = document.createElement('img');
     let address = document.createElement('p');
     let phoneNumber = document.createElement('p');
@@ -56,8 +47,6 @@ function displayBusinesses(business) {
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     logo.setAttribute('src', business.imageurl);
-    // ____.setAttribute('alt', 'Portait of ' + business.name + ' ' + business.lastname);
-    // logo.setAttribute('alt', `Portait of ${business.name} ${business.lastname} - ${business.order}th Latter-day President`);
     logo.setAttribute('loading', 'lazy');
     
   
