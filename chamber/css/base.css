@@ -394,15 +394,15 @@ fieldset textarea {
 .cards section {
     background-color: #faf2e7;
     border: solid rgba(215, 1, 1, 255);
-    max-width: 20em;
+    max-width: 320px;
     margin: 1em;
     padding: .5em;
     text-align: center;
     justify-content: center;
-    min-width: 340px;
+    min-width: 320px;
 }
 .cards section p {
-    max-width: 20em;
+    max-width: 320px;
 }
 
 .cards img {
