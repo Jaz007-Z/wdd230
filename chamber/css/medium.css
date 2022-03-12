@@ -82,6 +82,6 @@
 
 
 /* directory specific */
-.cards section {
+.cards section, .cards section p {
     max-width: 23em;
 }

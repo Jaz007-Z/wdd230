@@ -401,6 +401,9 @@ fieldset textarea {
     justify-content: center;
     min-width: 340px;
 }
+.cards section p {
+    max-width: 20em;
+}
 
 .cards img {
     /* width: auto;
