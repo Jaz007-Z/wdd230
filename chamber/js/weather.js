@@ -1,4 +1,4 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=45.4386&lon=12.3267&appid=af98801390ad8c67d0b28ab0ca82c8cb";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=45.4386&lon=12.3267&units=imperial&appid=af98801390ad8c67d0b28ab0ca82c8cb";
 // async function getWheather() {
 //   const apiURL = "http://api.openweathermap.org/data/2.5/weather?lat=64.8378&lon=-147.7164&appid=af98801390ad8c67d0b28ab0ca82c8cb";
 // }
