@@ -13,9 +13,7 @@
     <link rel="stylesheet" href="css/large.css">
 
     <script defer src="js/javaScript.js"></script>
-    <script defer src="js/weather.js"></script>
-    <script defer src="js/banner.js"></script>
-    <script defer src="js/spotlight.js"></script>
+
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,18 +23,7 @@
 </head>
 
 <body>
-    <div class="banner">
-        <div class="banner__content">
-            <div class="banner__text">
-                🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
-            </div>
-            <button class="banner__close" type="button">
-                <span class="material-icons">
-                    ❌
-                </span>
-            </button>
-        </div>
-    </div>
+
     <header>
         <div class="headerTop">
             <a href="index.html" class="mainPageLink">
@@ -62,7 +49,7 @@
             <ul class="navigation">
                 <li class="navMenuButton"><a href="#" class="mainMenu">&#9776; Menu</a></li>
                 <li><a href="discover.html">Discovery</a></li>
-                <li><a href="directory.html">Directory.</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -71,62 +58,43 @@
         <p id="time"></p>
     </header>
 
-    <main class="homePage">
-        <div class="placeholderBoxes hero">
-            <!-- <picture> -->
-                <!-- <source media="(min-width: 77em)" srcset="images/ren_italy_tall2.webp"> -->
-                <!-- <source media="(min-width: 55em)" srcset="images/ren_italy_large_tall.jpg"> -->
-                <img class="hero_image" src="images/ren_italy_large.jpg" alt="Rennisance Italy">
-                <!-- <h2 class="hero_text">Hero testing</h2> -->
-            <!-- </picture> -->
-        </div>
-        <div class="placeholderBoxes event">
-            <h2>Event</h2>
-            <p>Join us for the initation of Ezio Vetore as a guild master on Monday at 11AM. </p>
-        </div>
-        <div class="placeholderBoxes weather">
-            <div class="weatherNumbers">
-                <h2>Weather</h2>
-                <p><span id="temp"><strong></strong></span>&#176;F</p>
-
-                <div class="wind">
-                    <p>Wind Speed:&nbsp;<span id="speedWind"></span> mph</p>
+    <main>
+        <h1>Contact the Guild</h1>
+        <div class="contactForm">
+            <form class="getInfo" action="#" method="get">
+                <fieldset>
+                    <h2>Contact Info: </h2>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="cell-phone">Cell-phone</label><br>
+                    <input type="text" id="cell-phone" name="cell-phone" required><br>
+                    <label for="concern">Question/Concern</label><br>
+                    <textarea rows="3" id="bDescription" name="bDescription" required></textarea><br>
+                </fieldset>
+                <div class="joinGuildButtonCentering">
+                    <input class="joinGuildButton" type="submit" value="Contact the Guild">
                 </div>
-                <div class="wind">
-                    <p>Wind Chill:&nbsp;<span id="windChill"></span></p>
+            </form>
+
+            <div class="contactInfo">
+                <h2>Contact info</h2>
+                <div class="contactInfoInner">
+                    <h3>Address:</h3>
+                    <p>Via Florono Rota 55 Fontanelle Cuneo 66678</p>
+                    <h3>Phone:</h3>
+                    <p>+223-340-3901</p>
+                    <h3>Email:</h3>
+                    <p>info@GuildsChamberofCommerce</p>
+                    <p class="subtext">*Higher Rank Members will be placed higher in the service queue</p>
                 </div>
             </div>
-            <figure class="weatherFig"><img src="" alt="" id="weatherIcon" />
-                <figcaption></figcaption>
-            </figure>
         </div>
-
-        <div class="placeholderBoxes news">
-            <h2>News Release</h2>
-            <p>We are proud to annouce Ezio Vetore as a new guild master for blacksmithing. He will
-                be an excellent addition to the owners and influencer of guild policy as a master
-                of his craft who crafted the finest dagger we
-                have ever seen to earn his spot as a guild master.
-            </p>
-        </div>
-        <div class="placeholderBoxes join">
-            <!-- <h2>Join</h2> -->
-            <button type="button">Join Us</button>
-            <p>Join the chamber and further the goals and profits of your guild!</p>
-        </div>
-        <div class="placeholderBoxesSpotlight">
-            <h2>Shop at a Guild</h2>
-            <div class="placeholderBoxesSpotlightInner spotlightBox1">
-                <!-- <div class="cards"></div> -->
-                <!-- <h2>Shop at a Guild</h2>
-                <img src="images/blacksmith.png" alt="blacksmith" width="80">
-                <p>blacksmith.com</p> -->
-            </div>
-            <div class="placeholderBoxesSpotlightInner spotlightBox2"></div>
-            <div class="placeholderBoxesSpotlightInner spotlightBox3"></div>
-        </div>
-
     </main>
+
 
     <footer>
         <div class="footer1">

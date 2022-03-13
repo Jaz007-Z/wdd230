@@ -56,16 +56,16 @@
         box-shadow: .5em .5em .3em grey;
     }
 
-    .joinForm {
+    /* .joinForm {
         display: grid;
-    }
+    } */
 
     .getInfo {
         grid-column: 1/2;
         justify-self: center;
     }
 
-    .membershipInfo {
+    .membershipInfo, .contactInfo {
         grid-column: 2/3;
         height: fit-content;
     }

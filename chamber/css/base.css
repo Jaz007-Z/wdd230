@@ -113,21 +113,30 @@ main {
 }
 
 .placeholderBoxesSpotlight,
-.membershipInfo {
+.membershipInfo, .contactInfo {
     display: flex;
     background-color: #faf2e7;
     align-items: center;
     padding-top: 2em;
     padding-bottom: 2em;
     flex-direction: column;
+    margin-top: 1em;
 }
-
-.membershipInfo {
+.contactInfo p, .contactInfo h3 {
+    margin: 0;
+}
+.contactInfo h3 {
     margin-top: 1em;
 }
 
+.contactInfo .subtext {
+    font-size: small;
+    font-style: italic;
+    margin: 1em;
+}
+
 .placeholderBoxesSpotlightInner,
-.membershipInfoInner {
+.membershipInfoInner, .contactInfoInner {
     border: solid black;
     width: 80%;
     margin: 0;
@@ -363,9 +372,7 @@ input[type="radio"] {
 .joinGuildButtonCentering {
     text-align: center;
 }
-.getInfo {
-    /* text-align: center; */
-}
+
 
 fieldset {
     margin: 1em;
@@ -376,11 +383,11 @@ fieldset textarea {
     padding: .5em;
 }
 
-.membershipInfo {
+.membershipInfo, contactInfo {
     justify-self: center;
 }
 
-.joinForm {
+.joinForm, .contactForm {
     display: grid;
 }
 
