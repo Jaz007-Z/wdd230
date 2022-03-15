@@ -241,6 +241,10 @@ main {
     display: none;
 }
 
+form {
+    display: inherit;
+}
+
 button {
     width: 80%;
     justify-self: center;
