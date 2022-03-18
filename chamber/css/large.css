@@ -19,8 +19,6 @@
     }
 
     .join {
-        display: inherit;
-        /* order: 0; */
         grid-column: 1/2;
         grid-row: 3/4;
     }
@@ -30,13 +28,11 @@
     }
 
     .news {
-        /* order: 1; */
         grid-column: 2/4;
         grid-row: 3/4;
     }
 
     .event {
-        /* order: 0; */
         grid-column: 1/2;
         grid-row: 1/2;
     }
@@ -51,7 +47,6 @@
     }
 
     .placeholderBoxes {
-        width: inherit;
         height: auto;
     }
 

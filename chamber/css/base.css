@@ -1,8 +1,6 @@
 header,
 footer {
-    /* background-color: rgb(175, 9, 9); */
     background-color: rgba(215, 1, 1, 255);
-    /* background-color: rgb(196, 7, 7); */
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -14,19 +12,12 @@ header p {
     font-size: large;
 }
 
-/* .placeholderBoxes p, .placeholderBoxesSpotlightInner h2 {
-    padding: .3em;
-    margin: 0;
-    /* margin: 1em; 
-} */
-
 .placeholderBoxesSpotlightInner p,
 .placeholderBoxesSpotlightInner h2,
 .placeholderBoxes p,
 .placeholderBoxes h2 {
     padding: .3em;
     margin: 0;
-    /* margin: 1em; */
 }
 
 
@@ -35,7 +26,6 @@ header p {
     padding: 0;
     padding-left: .5em;
     margin: 0;
-    /* margin: 1em; */
 }
 
 
@@ -46,10 +36,6 @@ header p {
     justify-content: center;
 }
 
-.hero {
-    text-align: center;
-    position: relative;
-}
 
 .hero_image {
     object-fit: cover;
@@ -85,7 +71,6 @@ main {
     max-width: 90em;
     margin: auto;
     padding: .5em;
-    /* background-color: #faf2e7; */
     display: grid;
 }
 .homePage {
@@ -219,7 +204,6 @@ nav {
 
 
 h1 {
-    /* color: #8a2be2; */
     color: #7851a9;
     font-family: 'MedievalSharp', cursive;
 }
@@ -345,7 +329,8 @@ button {
 
 .stars>label:hover,
 #onestar:hover,
-#twostar:hover #threestar:hover,
+#twostar:hover,
+#threestar:hover,
 #fourstar:hover {
     color: #000;
 }
@@ -417,8 +402,6 @@ fieldset textarea {
 }
 
 .cards img {
-    /* width: auto;
-    height: 25%; */
     width: auto;
     max-width: 20em;
     height: 8em;
@@ -427,14 +410,6 @@ fieldset textarea {
 .cards section p:first-child {
     font-size: large;
 }
-
-
-/* .switchCardView {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    column-gap: 0;
-    row-gap: 0;
-} */
 
 .switchListView {
     display: block;
@@ -455,7 +430,7 @@ fieldset textarea {
     align-self: center;
 }
 .switchListView section a, .cards section a {
-    margin: 1;
+    margin: 1em;
     color: blue;
     align-self: center;
 
@@ -496,4 +471,9 @@ fieldset textarea {
 
 .selectViewDirectory li {
     list-style: none;
+}
+
+/* Thankyou page specific */
+.thankyouText {
+    text-align: center;
 }

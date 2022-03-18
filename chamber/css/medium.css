@@ -56,9 +56,6 @@
         box-shadow: .5em .5em .3em grey;
     }
 
-    /* .joinForm {
-        display: grid;
-    } */
 
     .getInfo {
         grid-column: 1/2;
