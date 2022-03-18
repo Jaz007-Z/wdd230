@@ -1,5 +1,5 @@
 /* @media (min-width: 37.5em) { */
-    @media (min-width: 41.5em) {
+@media (min-width: 41.5em) {
 
     /* Flex *********************/
 
@@ -33,6 +33,14 @@
     }
 
 
+    .placeholderBoxes h2 {
+        padding: .5em;
+    }
+    .placeholderBoxes p{
+        padding-left: .5em;
+    }
+
+
     .placeholderBoxesSpotlight {
         flex-direction: inherit;
         order: 2;
@@ -62,7 +70,8 @@
         justify-self: center;
     }
 
-    .membershipInfo, .contactInfo {
+    .membershipInfo,
+    .contactInfo {
         grid-column: 2/3;
         height: fit-content;
     }
@@ -71,16 +80,14 @@
         text-align: center;
     }
 
-    .thankyouText{
+    .thankyouText {
         justify-self: center;
     }
 
     /* directory specific */
-.cards section, .cards section p {
-    max-width: 23em;
-}
+    .cards section,
+    .cards section p {
+        max-width: 23em;
+    }
 
 }
-
-
-
