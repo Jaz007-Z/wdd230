@@ -11,7 +11,6 @@ async function getWheather() {
   document.querySelector('#weatherIcon').setAttribute('src', iconsrc);
   document.querySelector('#weatherIcon').setAttribute('alt', desc);
   document.querySelector('figcaption').textContent = desc;
-  console.log(jsObject)
 
 
 
