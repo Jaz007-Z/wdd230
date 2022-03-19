@@ -5,9 +5,6 @@ const FACTOR = 1000 * 60 * 60 * 24;
 let daysBetween = Date.now() - lastVisit;
 
 let numberOfDays = Math.round(daysBetween / FACTOR);
-// let numberOfDays = daysBetween;
-
-console.log(numberOfDays);
 
 const daysSince = document.querySelector('#daysSince');
 

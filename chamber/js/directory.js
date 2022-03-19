@@ -11,8 +11,7 @@ listView.addEventListener('click', () => {cards.classList.remove('cards')}, once
 
 
 
-// const requestURL = 'https://jaz007-z.github.io/wdd230/chamber/json/businessDirectory.json';
-const requestURL = 'json/businessDirectory.json';
+const requestURL = 'https://jaz007-z.github.io/wdd230/chamber/json/businessDirectory.json';
 const cards = document.querySelector('.cards');
 
 
@@ -26,7 +25,6 @@ fetch(requestURL)
   });
 
 
-//   const businesss = jsonObject['businesss'];
 
 
 function displayBusinesses(business) {

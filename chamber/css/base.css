@@ -57,12 +57,16 @@ header p {
 }
 
 .footer1 {
-
     text-align: center;
 }
 
+.footer1 a:hover {
+    color: white;
+    background-color: black;
+}
 
 .footer2 {
+    margin-top: .5em;
     border-top: solid black;
 }
 
@@ -217,7 +221,6 @@ p {
 }
 
 main {
-    /* background-color: #a956fb; */
     background-color: blanchedalmond;
 }
 
@@ -302,7 +305,6 @@ button {
     margin-left: 5px;
     display: flex;
     align-items: center;
-    /* caret-color: rgba(0, 0, 0, 0); remove blinking cursor */
 }
 
 #fourstar {
@@ -420,11 +422,9 @@ fieldset textarea {
 }
 
 .switchListView section {
-    /* margin: 0; */
     display: flex;
 }
 .switchListView section p {
-    /* margin: 0; */
     margin: 1em;
     width: 10em;
     align-self: center;

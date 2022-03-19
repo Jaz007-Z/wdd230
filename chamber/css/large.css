@@ -1,9 +1,6 @@
 @media (min-width: 55em) {
 
     /* Flex *********************/
-    .homePage {
-        /* grid-template-rows: max-content; */
-    }
 
     .navigation li {
         display: flex;
@@ -65,11 +62,6 @@
         grid-row: 1/3;
     }
 
-    .wind p,
-    .wind h2 {
-        /* padding: 0.5em; */
-        /* margin: 0; */
-    }
 
     .hero_image {
         height: 100%;
