@@ -35,6 +35,7 @@ function displayBusinesses(business, spotlightBox) {
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     logo.setAttribute('src', business.imageurl);
+    logo.setAttribute('alt', business.name)
     logo.setAttribute('loading', 'lazy');
 
 
