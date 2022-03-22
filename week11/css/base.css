@@ -1,0 +1,41 @@
+header,
+footer {
+    background-color: lightgrey;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: .5em;
+}
+
+main {
+    /* background-color: #ABF1BC; */
+    background-color: limegreen;
+    justify-items: center;
+    display: grid;
+}
+
+.background {
+    background-color: #87cdf6;
+    width: 80%;
+    justify-self: center;
+    align-self: center;
+    text-align: left;
+    margin: 2em;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+}
+
+h2, h3 {
+    font-family: 'Balthazar', serif;
+}
+
+p {
+    font-family: 'Puritan', sans-serif;
+}
+
+p, H1,H2,H3 {
+    width: 70%;
+    margin: 1em;
+}
