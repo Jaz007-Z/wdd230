@@ -1,0 +1,190 @@
+header,
+footer {
+    background-color: lightgrey;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: .5em;
+}
+
+main {
+    max-width: 85em;
+    margin: auto;
+    padding: .5em;
+    display: grid;
+}
+
+.footer1Address {
+    margin: 0;
+    font-style: italic;
+}
+
+.footer1 {
+    text-align: center;
+}
+
+.footer1 a:hover {
+    color: white;
+    background-color: black;
+}
+
+.footer2 {
+    margin-top: .5em;
+    border-top: solid black;
+}
+
+.headerTop {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+}
+
+.navigation li {
+    list-style-type: none;
+    padding: .6em;
+    border: .1em solid#444;
+    display: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: black;
+}
+
+a {
+    color: black;
+}
+
+main {
+    /* background-color: #ABF1BC; */
+    background-color: limegreen;
+    padding: .5em;
+    /* justify-items: center;
+    display: grid; */
+}
+
+.homePage {
+    gap: 1em;
+}
+
+.section {
+    background-color: #87cdf6;
+    /* padding: .1em; */
+}
+
+.section p,
+.section h2 {
+    padding: 0.3em;
+    margin: 0;
+}
+
+
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+}
+
+h2,
+h3 {
+    font-family: 'Balthazar', serif;
+}
+
+p {
+    /* font-family: 'Puritan', sans-serif; */
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.hero img {
+    width: 100%;
+}
+
+
+
+.box {
+    border: solid black;
+    /* margin: .5em; */
+}
+
+
+.templeInfoBasics h3 {
+    padding-left: .45em;
+}
+
+.reservationButton, .extraFutureWeather {
+    display: none;
+}
+
+.weather {
+    display: grid;
+}
+
+.weatherNumbers {
+    grid-column: 1/2;
+}
+
+.weatherFig {
+    grid-column: 2/3;
+    align-self: center;
+    justify-self: left;
+    margin: .2em;
+}
+
+.weatherNumbers p {
+    padding: .5em;
+}
+
+.wind {
+    display: flex;
+}
+
+.futureWeatherInner {
+    display: flex;
+}
+
+
+
+.templePictures {
+    text-align: center;
+}
+
+.templePictures img {
+    /* width: 100%; */
+
+}
+
+form {
+    display: grid;
+}
+
+button {
+    width: 80%;
+    justify-self: center;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+/* temples */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    justify-items: center;
+}
+
+.card {
+    width: 20em;
+    
+}
+
+.card img {
+    width: 100%;
+}

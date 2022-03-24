@@ -1,0 +1,76 @@
+/* @media (min-width: 55em) { */
+@media (min-width: 60em) {
+
+
+
+    .homePage p {
+        font-size: larger;
+    }
+
+    .hero {
+        display: grid;
+    }
+
+    .hero img {
+        grid-column: 1/2;
+    }
+
+    .templeInfo {
+        grid-column: 2/3;
+    }
+
+    .extraFutureWeather {
+        display: inherit;
+    }
+
+    .futureWeatherInner {
+        display: flex;
+        align-items: center;
+    }
+
+    .templeServices,
+    templeInfoBasics {
+        grid-column: 1/1;
+    }
+
+    .serviceForm {
+        justify-content: left;
+    }
+
+    .serviceButton {
+        width: auto;
+        font-size: 2em;
+    }
+
+    .services {
+        display: grid;
+    }
+
+    .serviceList {
+        font-size: larger;
+    }
+
+    .serviceList li {
+        margin: .6em;
+    }
+
+    .service1 {
+        grid-column: 1/2;
+        display: flex;
+    }
+
+    .service2 {
+        grid-column: 2/3;
+        display: grid;
+    }
+
+}
+
+@media (min-width: 65em) {
+
+    /* discovery page specific*/
+    .reservationButton {
+        display: inherit;
+        font-size: x-large;
+    }
+}

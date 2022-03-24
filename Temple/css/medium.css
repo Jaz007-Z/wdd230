@@ -1,0 +1,17 @@
+/* @media (min-width: 37.5em) { */
+@media (min-width: 41.5em) {
+
+    .templeInfo, .currentWeather, .weather {
+        display: grid;
+    }
+   
+
+    .templeInfoBasics, .weatherNumbers, .currentWeather {
+        grid-column: 1/2;
+    }
+    .templeServices, .weatherFig, .futureWeather {
+        grid-column: 2/3;
+    }
+
+
+}
