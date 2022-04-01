@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home of Temple Suites and Inns</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Information and reservations for Temple Inn and Suites">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
@@ -16,10 +14,8 @@
 
 
     <script defer src="js/javascript.js"></script>
-    <script defer src="js/temples.js"></script>
-
-
-
+    <!-- <script defer src="js/spotlight.js"></script> -->
+    <script defer src="js/weather.js"></script>
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,18 +52,101 @@
                 <ul class="navigation">
                     <li class="navMenuButton"><a href="#" class="mainMenu">&#9776; Menu</a></li>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="reservastion.html">Reservastion</a></li>
+                    <li><a href="reservation.html">Reservastion</a></li>
                     <li><a href="temples.html">Temples</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    
+                    <li><a href="services.html">Services</a>
+                        <ul class="subMenu">
+                            <li><a href="servicesWedding.html">Receptions</a></li>
+                            <li><a href="servicesMissionary.html">Missionary Kitchenette</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </div>
         <p id="time"></p>
     </header>
-    <main>
-        <h1>Temples</h1>
-        <div class="cards"></div>
+    <!-- <main class="homePage"> -->
+    <main style="gap: 1em;">
+
+        <h1>Reservations for Temple Suites and Inn</h1>
+        <!-- <div class="section hero">
+            <img src="https://www.cambriaarundel.com/wp-content/uploads/2019/04/md306snk1-1160x773.jpg"
+                alt="Mount Timpanogos Utah Temple" loading="lazy">
+            <div class="templeInfo">
+                <div class="box templeInfoBasics">
+                    <ul class="serviceList">
+                        <li>Small apartment - two missionaries - $1500 monthly</li>
+                        <li>Medium apartment - four missionaries - $2100 monthly</li>
+                        <li>Large apartment - six missionaries - $2500 monthly</li>
+                    </ul>
+                </div>
+                <div class="box templeServices">
+                    <p>Long term accomidations for missionaries are offered here, offering a kitchenette suite with a
+                        kitchen, living room, and
+                        study room. We offer different sizes for a different number of missionaries. The kitchen comes
+                        with a cabinetes, an oven, electric stove, a dish washer,
+                        and a refrigerator. The study room is furnished with chair, a couch, and a desks along with
+                        chairs. The free amenaties, including breakfast, are all available
+                        to the missionaries.
+                </div>
+            </div>
+        </div> -->
+        <form class="getInfo box section" action="#" method="get">
+            <div class="service1">
+                <h2>Contact Info: </h2>
+                <!-- <fieldset> -->
+                <div class="service1">
+                    <fieldset>
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname" required>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="cell-phone">Cell-phone:</label>
+                        <input type="text" id="cell-phone" name="cell-phone" required>
+                        <label for="state">Home State or Country:</label>
+                        <input type="text" id="state" name="state" required>
+                    </fieldset>
+                </div>
+
+                <div class="service2">
+                    <fieldset>
+                        <label for="roomType">Room Type:</label>
+                        <input type="text" id="roomType" name="roomType" required>
+                        <label for="roomDate">Date of Reservation:</label>
+                        <input type="date" id="roomDate" name="roomDate" required>
+                        <label for="roomDays">Number of Days you will be Staying:</label>
+                        <input type="number" id="roomDays" name="roomDays" required>
+                        <label for="roomNumber">Number of Rooms:</label>
+                        <input type="number" id="roomNumber" name="roomNumber" required>
+                        <label for="concern">Question/Concern:</label>
+                    <textarea rows="3" id="concern" name="concern"></textarea>
+                    </fieldset>
+                    
+                </div>
+
+                <!-- </fieldset> -->
+            </div>
+            <div class="service2">
+                <form class="serviceForm" action="reservations.html">
+                    <input class="serviceButton" type="submit" value="Make Reservation">
+                </form>
+            </div>
+        </form>
+
+
+        <div class="section servicePictures">
+
+            <img src="https://www.bestwesterncountry.com/wp-content/uploads/2019/04/63380668_XXL.jpg" alt="bedroom">
+            <img src="https://nextluxury.com/wp-content/uploads/Small-Study-Room-Ideas-homesweethome_bybabsy.jpg"
+                alt="study">
+            <img src="https://www.aquaaston.com/files/live/sites/aah/files/properties/ILI/Ilikai-Hotel-and-Luxury-suite--Bedroom-kitchen-1440x900.jpg"
+                alt="kitchen">
+            <img src="https://i.pinimg.com/originals/06/8c/7e/068c7e1d96b367fa8bf35818bd8e5c3d.jpg" alt="study">
+
+        </div>
+
 
     </main>
     <footer>
@@ -80,8 +159,7 @@
             <p class="footer1Address">Bethesda, MD 20814</p>
             <p>info@TempleInns</p>
             <p>+223-340-3901</p>
-            <a
-                href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">
+            <a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">
                 📍 Location map</a>
         </div>
         <div class="footer2">

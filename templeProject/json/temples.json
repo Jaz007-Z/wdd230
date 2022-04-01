@@ -30,33 +30,25 @@
             ]
         },
         {
-            "name": "Mount Timpanogos Utah Temple",
-            "phase": "Phase 3",
-            "address": "742 N 900 E American Fork UT 84003-9124 United States",
-            "phoneNumber": "(1) 801-763-4540",
-            "website": "https://www.churchofjesuschrist.org/temples/details/mount-timpanogos-utah-temple?lang=eng",
-            "imageurl": "https://assets.ldscdn.org/38/f4/38f4f0d08d11f9aa517fb57f68bbf7f95f1de7ed/mount_timpanogos_utah_temple.jpeg",
+            "name": "Washington D.C. Temple",
+            "phase": "Closed for Rennovations",
+            "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
+            "phoneNumber": "N/A",
+            "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
+            "imageurl": "https://assets.ldscdn.org/1d/54/1d544493ab28695b7030205cd94e5cd038b603cf/washington_dc_mormon_temple.jpeg",
             "services": [
-                "Clothing rental available",
-                "No cafeteria available",
-                "No patron housing available",
-                "Distribution center nearby"
+                "Temple Closed"
             ],
             "history":[
-                "3 October 1992: Announced",
-                "9 October 1993: Groundbreaking",
-                "13 October 1996: Dedicated — dedicatory prayer"
+                "15 November 1968: Announced",
+                "7 December 1968: Groundbreaking",
+                "19 November 1974: Dedicated — dedicatory prayer",
+                "14 August 2022: Rededicated"
             ],
-            "ordinanceSchedule": "Every Two Hour - appointment required ",
-            "sessionSchedule": "Every hour - appointment required",
+            "ordinanceSchedule": "Closed",
+            "sessionSchedule": "Closed",
             "templeClosureSchedule": [
-                "Saturday, 2 April 2022",
-                "Monday, 9 May 2022 - Monday, 23 May 2022",
-                "Saturday, 1 October 2022",
-                "Monday, 7 November 2022 - Tuesday, 22 November 2022",
-                "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
-                "Saturday, 24 December 2022",
-                "Saturday, 31 December 2022"
+                "Open house April 28, 2022 - June 11, 2022"
             ]
         },
         {

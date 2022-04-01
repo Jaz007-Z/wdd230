@@ -13,5 +13,11 @@
         grid-column: 2/3;
     }
 
+    .templeInfoCard {
+        display: block;
+    }
 
+    .servicePictures img {
+        width: 49%;
+    }
 }

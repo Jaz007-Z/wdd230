@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home of Temple Suites and Inns</title>
+    <meta name="description" content="Information and reservations for Temple Inn and Suites">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+
+    <script defer src="js/javascript.js"></script>
+    <!-- <script defer src="js/spotlight.js"></script> -->
+    <script defer src="js/weather.js"></script>
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balthazar&family=Great+Vibes&family=Puritan&family=Zen+Maru+Gothic:wght@500&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="headerTop">
+            <a href="index.html" class="mainPageLink">
+                <figure>
+                    <img src="../Temple/images/TempleLogo.png" alt="Temple Suites Logo">
+                    <figcaption>Temple Inn and Suite</figcaption>
+                </figure>
+            </a>
+            <div class="social">
+                <a href="facebook.com" target="_blank">
+                    <img width="20"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAvlJREFUaEPtmjts01AUhv9jF0hCmxTaxFEGBqDlNSAQAw+xILHAiGBg4yEhIVAHIA8WMvBqioQEjKhiQ3ToBnOFqAQDaqe2assGFUla1DrULU18D7ILoqoi2ylx60i+kp3Bx/b/netzzlXOJfwZ0WyhWdKCXQCfZxKdBCn495oXfhligVgaB6FPBBefFsectionn4YuMk7tGbVTFngHYJcXxNpqYEwK5jPFnsgEmZ5fCAw3jPh/dBPQtUOkpNS7AB7YUnvTIENKUh0G4aA39VmrIuYhiqVmtQ0O2BIzZsyAJLQC5uFoMJNmfELsyLpeRswVSNIbFujfXBYDX59Gfqx+9I707LYllhNgPsKEV1avXlcAITBAEFcLPa1fnPijPTmfkEn/5hWA3nyw5RqyVHEi3kzvngFgHmwLhU+NZGnJqXgPAbAuBPYZRacW8d4BYHqdz7VcrFW8ZwCY6Vwh19LvFCCRnQo1LYa2GPZlIccF8cjGBTGz2FRGtFqqXCkqnintZ6HfB0unQWh2CmvWDjfrADMXC7lIzEqQkp7dCZY+11LAVj7PVQABHi12R/ZbA5Seg/lGLV5fNwAGPhW6w0etxMXSc++J6aQnAQB8zHeHj1kCpNQxAvb4AGv1gM19/gzYOdbVLNQgMcBlibhqoBJJ81OPwmNWXoynSgeI9EA1Gx10mZiuu1qJmXmpkIuYpb/eQ0mpvQAuNTLAIIDjDQsQS6rTRGhrSIDELbVdb0LR7rP87yzkVgzEMuoJEvjQsABKUr0Cwst1AQhIHK/2Ik2UK9O5aMlKxPbsTLh5UZZX2/xi+R7AXa4D+EsJfzXq7l+L/mrUD2I7D/hZyM9CfhayjAI/jdolEbebfK7OwHKTz902q6sAZptVSaoZEB7aTdUar7sLQEgvbzXQAkMg7F6jSKvbXAMgxjgL7bC52SN6Z65DkugtgI46Q7gCYIjXJT5bfByZNAGModz+vhVy6CYxXxDEe+vUva8bgLHdBpBHJeI+rmgv8k/i84bu3+qZ8osOLMsmAAAAAElFTkSuQmCC"
+                        alt="FB">
+                </a>
+                <a href="twitter.com" target="_blank">
+                    <img width="20"
+                        src="data:image/png;base64,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"
+                        alt="Twitter">
+                </a>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li class="navMenuButton"><a href="#" class="mainMenu">&#9776; Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="reservation.html">Reservastion</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="services.html">Services</a>
+                        <ul class="subMenu">
+                            <li><a href="servicesWedding.html">Receptions</a></li>
+                            <li><a href="servicesMissionary.html">Missionary Kitchenette</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <p id="time"></p>
+    </header>
+    <!-- <main class="homePage"> -->
+    <main style="gap: 1em;">
+
+        <h1>Services of Temple Suites and Inn</h1>
+        <div class="section hero">
+            <img src="https://www.cambriaarundel.com/wp-content/uploads/2019/04/md306snk1-1160x773.jpg"
+                alt="Mount Timpanogos Utah Temple" loading="lazy">
+            <div class="templeInfo">
+                <div class="box templeInfoBasics">
+                    <ul class="serviceList">
+                        <li>Small apartment - two missionaries - $1500 monthly</li>
+                        <li>Medium apartment - four missionaries - $2100 monthly</li>
+                        <li>Large apartment - six missionaries - $2500 monthly</li>
+                    </ul>
+                </div>
+                <div class="box templeServices">
+                    <p>Long term accomidations for missionaries are offered here, offering a kitchenette suite with a
+                        kitchen, living room, and
+                        study room. We offer different sizes for a different number of missionaries. The kitchen comes
+                        with a cabinetes, an oven, electric stove, a dish washer,
+                        and a refrigerator. The study room is furnished with chair, a couch, and a desks along with
+                        chairs. The free amenaties, including breakfast, are all available
+                        to the missionaries.
+                </div>
+            </div>
+        </div>
+
+        <div class="section services">
+            <div class="box services">
+                <div class="service1">
+                    <h2>Free Amenaties: </h2>
+                    <ul class="serviceList">
+                        <li>Breakfast</li>
+                        <li>Exercise/workout room</li>
+                        <!-- <li>Indoor pool</li> -->
+                        <li>WiFi high-speed internet access and smart TVs</li>
+                        <li>Parking</li>
+                        <li>Temple shuttle</li>
+                        <li>Family history consultation and family ordinance card service</li>
+                    </ul>
+                </div>
+                <div class="service2">
+                    <form class="serviceForm" action="reservations.html">
+                        <button class="serviceButton" type="submit">Reservations</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <form class="getInfo box section" action="#" method="get">
+            <div class="service1">
+                <h2>Contact Info: </h2>
+                <fieldset>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" required>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="cell-phone">Cell-phone</label>
+                    <input type="text" id="cell-phone" name="cell-phone" required>
+                    <label for="concern">Question/Concern</label>
+                    <textarea rows="3" id="concern" name="concern" required></textarea>
+                </fieldset>
+            </div>
+            <div class="service2">
+                <form class="serviceForm" action="reservations.html">
+                    <input class="serviceButton" type="submit" value="Send Question">
+                </form>
+            </div>
+        </form>
+
+
+        
+
+        <div class="section servicePictures">
+
+            <img src="https://www.bestwesterncountry.com/wp-content/uploads/2019/04/63380668_XXL.jpg" alt="bedroom">
+            <img src="https://nextluxury.com/wp-content/uploads/Small-Study-Room-Ideas-homesweethome_bybabsy.jpg"
+                alt="study">
+            <img src="https://www.aquaaston.com/files/live/sites/aah/files/properties/ILI/Ilikai-Hotel-and-Luxury-suite--Bedroom-kitchen-1440x900.jpg"
+                alt="kitchen">
+            <img src="https://i.pinimg.com/originals/06/8c/7e/068c7e1d96b367fa8bf35818bd8e5c3d.jpg" alt="study">
+
+        </div>
+
+
+    </main>
+    <footer>
+        <div class="footer1">
+            <figure>
+                <img src="../Temple/images/TempleLogo.png" alt="Temple Suites Logo">
+                <figcaption>Temple Inn and Suite</figcaption>
+            </figure>
+            <p class="footer1Address">4800 Montgomery Ln #300, </p>
+            <p class="footer1Address">Bethesda, MD 20814</p>
+            <p>info@TempleInns</p>
+            <p>+223-340-3901</p>
+            <a
+                href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">
+                📍 Location map</a>
+        </div>
+        <div class="footer2">
+            <p>&copy; 2022 Temple Suits and Inns</p>
+            <p>WDD 230 Project</p>
+            <p id="lastMod"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

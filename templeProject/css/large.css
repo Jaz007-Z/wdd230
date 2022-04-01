@@ -29,7 +29,7 @@
     }
 
     .templeServices,
-    templeInfoBasics {
+    .templeInfoBasics {
         grid-column: 1/1;
     }
 
@@ -61,12 +61,33 @@
 
     .service2 {
         grid-column: 2/3;
-        display: grid;
+        /* display: grid; */
+    }
+
+    .hero img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .navigation li,
+    .navigation {
+        display: flex;
+        vertical-align: middle;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .subMenu li:first-child,
+    .subMenu li {
+        display: block;
     }
 
 }
 
-@media (min-width: 65em) {
+@media (min-width: 70em) {
 
     /* discovery page specific*/
     .reservationButton {
