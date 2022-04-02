@@ -17,8 +17,8 @@
                 "9 October 1993: Groundbreaking",
                 "13 October 1996: Dedicated — dedicatory prayer"
             ],
-            "ordinanceSchedule": "Every Two Hour - appointment required ",
-            "sessionSchedule": "Every hour - appointment required",
+            "ordinanceSchedule": "Ordinances: Every Two Hour - appointment required ",
+            "sessionSchedule": "Sessions: Every hour - appointment required",
             "templeClosureSchedule": [
                 "Saturday, 2 April 2022",
                 "Monday, 9 May 2022 - Monday, 23 May 2022",
@@ -37,7 +37,7 @@
             "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
             "imageurl": "https://assets.ldscdn.org/1d/54/1d544493ab28695b7030205cd94e5cd038b603cf/washington_dc_mormon_temple.jpeg",
             "services": [
-                "Temple Closed"
+                "Open house April 28, 2022 - June 11, 2022"
             ],
             "history":[
                 "15 November 1968: Announced",
@@ -45,19 +45,19 @@
                 "19 November 1974: Dedicated — dedicatory prayer",
                 "14 August 2022: Rededicated"
             ],
-            "ordinanceSchedule": "Closed",
-            "sessionSchedule": "Closed",
+            "ordinanceSchedule": "Ordinaces: Closed",
+            "sessionSchedule": "Sessions: Closed",
             "templeClosureSchedule": [
-                "Open house April 28, 2022 - June 11, 2022"
+                "Temple Closed"
             ]
         },
         {
-            "name": "Mount Timpanogos Utah Temple",
+            "name": "Dallas Texas Temple",
             "phase": "Phase 3",
-            "address": "742 N 900 E American Fork UT 84003-9124 United States",
-            "phoneNumber": "(1) 801-763-4540",
-            "website": "https://www.churchofjesuschrist.org/temples/details/mount-timpanogos-utah-temple?lang=eng",
-            "imageurl": "https://assets.ldscdn.org/38/f4/38f4f0d08d11f9aa517fb57f68bbf7f95f1de7ed/mount_timpanogos_utah_temple.jpeg",
+            "address": "6363 Willow Ln, Dallas TX 75230-2227, United States",
+            "phoneNumber": "(1) 972-991-1273",
+            "website": "https://www.churchofjesuschrist.org/temples/details/dallas-texas-temple?lang=eng",
+            "imageurl": "https://assets.ldscdn.org/3a/22/3a227fd5a3b70bee2fecf6fae7adbdf0aeb430dc/dallas_texas_temple.jpeg",
             "services": [
                 "Clothing rental available",
                 "No cafeteria available",
@@ -65,47 +65,49 @@
                 "Distribution center nearby"
             ],
             "history":[
-                "3 October 1992: Announced",
-                "9 October 1993: Groundbreaking",
-                "13 October 1996: Dedicated — dedicatory prayer"
+                "1 April 1981: Announced",
+                "22 January 1983: Groundbreaking",
+                "19 October 1984: Dedicated — dedicatory prayer",
+                "5 March 1989: Rededicated — dedicatory prayer"
             ],
-            "ordinanceSchedule": "Every Two Hour - appointment required ",
-            "sessionSchedule": "Every hour - appointment required",
+            "ordinanceSchedule": "Ordinances: Every hour Hour - appointment required",
+            "sessionSchedule": "Sessions: Every hour - appointment required",
             "templeClosureSchedule": [
                 "Saturday, 2 April 2022",
-                "Monday, 9 May 2022 - Monday, 23 May 2022",
+                "Friday, 8 April 2022 (Limited Operations)",
+                "Monday, 13 June 2022 - Monday, 27 June 2022",
                 "Saturday, 1 October 2022",
-                "Monday, 7 November 2022 - Tuesday, 22 November 2022",
-                "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+                "Wednesday, 23 November 2022 (Limited Operations)",
+                "Thursday, 24 November 2022",
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"
             ]
         },
         {
-            "name": "Mount Timpanogos Utah Temple",
+            "name": "Fort Lauderdale Florida Temple",
             "phase": "Phase 3",
-            "address": "742 N 900 E American Fork UT 84003-9124 United States",
-            "phoneNumber": "(1) 801-763-4540",
-            "website": "https://www.churchofjesuschrist.org/temples/details/mount-timpanogos-utah-temple?lang=eng",
-            "imageurl": "https://assets.ldscdn.org/38/f4/38f4f0d08d11f9aa517fb57f68bbf7f95f1de7ed/mount_timpanogos_utah_temple.jpeg",
+            "address": "3901 SW 154th Ave, Davie FL 33331, United States",
+            "phoneNumber": "(1) 954-382-8390",
+            "website": "https://www.churchofjesuschrist.org/temples/details/fort-lauderdale-florida-temple?lang=eng",
+            "imageurl": "https://assets.ldscdn.org/a1/2b/a12bee7d1fed9f81521f6ac1653a4845f0f632af/fort_lauderdale_florida_temple_lighted.jpeg",
             "services": [
-                "Clothing rental available",
+                "No clothing rental available",
                 "No cafeteria available",
                 "No patron housing available",
-                "Distribution center nearby"
+                "No distribution center nearby"
             ],
             "history":[
-                "3 October 1992: Announced",
-                "9 October 1993: Groundbreaking",
-                "13 October 1996: Dedicated — dedicatory prayer"
+                "3 October 2009: Announced",
+                "18 June 2011: Groundbreaking",
+                "4 May 2014: Dedicated — dedicatory prayer"
             ],
-            "ordinanceSchedule": "Every Two Hour - appointment required ",
-            "sessionSchedule": "Every hour - appointment required",
+            "ordinanceSchedule": "Ordinances: Every Two Hour - appointment required ",
+            "sessionSchedule": "Sessions: Every hour - appointment required",
             "templeClosureSchedule": [
                 "Saturday, 2 April 2022",
-                "Monday, 9 May 2022 - Monday, 23 May 2022",
+                "Monday, 4 April 2022 - Monday, 30 May 2022",
                 "Saturday, 1 October 2022",
-                "Monday, 7 November 2022 - Tuesday, 22 November 2022",
+                "Monday, 24 October 2022 - Monday, 7 November 2022",
                 "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
                 "Saturday, 24 December 2022",
                 "Saturday, 31 December 2022"

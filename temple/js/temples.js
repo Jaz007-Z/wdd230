@@ -49,11 +49,11 @@ function displayTemples(temple, x = 0) {
   website.textContent = temple.website;
   name.textContent = temple.name;
   phase.textContent = temple.phase;
-  services.textContent = "Services: ";
+  services.innerHTML = "<strong>Services: </strong>";
   telephone.textContent = `PhoneNumber: ${temple.phoneNumber}`;
   address.textContent = temple.address;
 
-  scheduleInfo.textContent = "Schedule: ";
+  scheduleInfo.innerHTML = "<strong>Schedule: </strong>";
   ordinanceSchedule.textContent = temple.ordinanceSchedule;
   sessionSchedule.textContent = temple.sessionSchedule;
   // button.textContent = "Make a Reservation!";
@@ -107,7 +107,7 @@ function displayTemples(temple, x = 0) {
   infoDivExtra.appendChild(sessionSchedule);
 
   let historyIntro = document.createElement('p');
-  historyIntro.textContent = "History: ";
+  historyIntro.innerHTML = "<strong>History: </strong>";
   infoDivExtra.appendChild(historyIntro);
   for (i = 0; i < temple.history.length; i++) {
     let history = document.createElement('p');
@@ -115,7 +115,7 @@ function displayTemples(temple, x = 0) {
     infoDivExtra.appendChild(history);
   }
   let templeClosureScheduleIntro = document.createElement('p');
-  templeClosureScheduleIntro.textContent = "Temple Closure Schedule: ";
+  templeClosureScheduleIntro.innerHTML = "<strong>Temple Closure Schedule: </strong>";
   infoDivExtra.appendChild(templeClosureScheduleIntro);
   for (i = 0; i < temple.templeClosureSchedule.length; i++) {
     let templeClosureSchedule = document.createElement('p');
