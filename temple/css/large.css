@@ -91,6 +91,10 @@
 
     }
 
+    .buttonMargin {
+        margin: auto;
+    }
+
 }
 
 @media (min-width: 70em) {
@@ -98,6 +102,10 @@
     /* discovery page specific*/
     .reservationButton {
         display: inherit;
+    }
+
+    .subPageButton,
+    .reservationButton {
         font-size: x-large;
     }
 }

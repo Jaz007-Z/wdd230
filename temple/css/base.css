@@ -123,6 +123,13 @@ p {
     display: none;
 }
 
+.subPageButton {
+}
+
+.buttonMargin {
+    margin: .5em;
+}
+
 .weather {
     display: grid;
 }
@@ -217,6 +224,10 @@ fieldset {
 .banner__text,
 .banner__close>span {
     color: #ffffff;
+}
+
+ul li {
+    padding-right: 1em;
 }
 
 /* temples */
