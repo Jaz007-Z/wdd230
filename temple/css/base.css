@@ -65,11 +65,8 @@ a {
 }
 
 main {
-    /* background-color: #ABF1BC; */
     background-color: limegreen;
     padding: .5em;
-    /* justify-items: center;
-    display: grid; */
 }
 
 .homePage {
@@ -99,7 +96,6 @@ h3 {
 }
 
 p {
-    /* font-family: 'Puritan', sans-serif; */
     font-family: 'Zen Maru Gothic', sans-serif;
 }
 
@@ -111,7 +107,6 @@ p {
 
 .box {
     border: solid black;
-    /* margin: .5em; */
 }
 
 

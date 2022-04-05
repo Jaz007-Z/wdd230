@@ -5,7 +5,7 @@
             "address": "742 N 900 E American Fork UT 84003-9124 United States",
             "phoneNumber": "(1) 801-763-4540",
             "website": "https://www.churchofjesuschrist.org/temples/details/mount-timpanogos-utah-temple?lang=eng",
-            "imageurl": "https://assets.ldscdn.org/38/f4/38f4f0d08d11f9aa517fb57f68bbf7f95f1de7ed/mount_timpanogos_utah_temple.jpeg",
+            "imageurl": "images/timpanogosTemple",
             "services": [
                 "Clothing rental available",
                 "No cafeteria available",
@@ -35,7 +35,7 @@
             "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
             "phoneNumber": "N/A",
             "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
-            "imageurl": "https://assets.ldscdn.org/1d/54/1d544493ab28695b7030205cd94e5cd038b603cf/washington_dc_mormon_temple.jpeg",
+            "imageurl": "images/dcTemple",
             "services": [
                 "Open house April 28, 2022 - June 11, 2022"
             ],
@@ -57,7 +57,7 @@
             "address": "6363 Willow Ln, Dallas TX 75230-2227, United States",
             "phoneNumber": "(1) 972-991-1273",
             "website": "https://www.churchofjesuschrist.org/temples/details/dallas-texas-temple?lang=eng",
-            "imageurl": "https://assets.ldscdn.org/3a/22/3a227fd5a3b70bee2fecf6fae7adbdf0aeb430dc/dallas_texas_temple.jpeg",
+            "imageurl": "images/dallasTemple",
             "services": [
                 "Clothing rental available",
                 "No cafeteria available",
@@ -89,7 +89,7 @@
             "address": "3901 SW 154th Ave, Davie FL 33331, United States",
             "phoneNumber": "(1) 954-382-8390",
             "website": "https://www.churchofjesuschrist.org/temples/details/fort-lauderdale-florida-temple?lang=eng",
-            "imageurl": "https://assets.ldscdn.org/a1/2b/a12bee7d1fed9f81521f6ac1653a4845f0f632af/fort_lauderdale_florida_temple_lighted.jpeg",
+            "imageurl": "images/lauderdaleTemple",
             "services": [
                 "No clothing rental available",
                 "No cafeteria available",
