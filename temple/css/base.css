@@ -47,11 +47,7 @@ main {
     display: none;
 }
 
-.navigation li:first-child {
-    display: block;
-}
-
-.responsive li {
+.navigation li:first-child, .responsive li {
     display: block;
 }
 
@@ -69,13 +65,12 @@ main {
     padding: .5em;
 }
 
-.homePage {
+main {
     gap: 1em;
 }
 
 .section {
     background-color: #87cdf6;
-    /* padding: .1em; */
 }
 
 .section p,
@@ -125,7 +120,7 @@ p {
     margin: .5em;
 }
 
-.weather {
+.weather, .service2, form {
     display: grid;
 }
 
@@ -156,7 +151,6 @@ p {
 
 .templePictures, .servicePictures {
     text-align: center;
-    /* display: flex; */
 }
 
 .servicePictures img {
@@ -165,15 +159,11 @@ p {
     object-fit: cover;
 }
 
-form {
-    display: grid;
-}
 
 button, .serviceButton {
     width: 80%;
 }
 button, input {
-    /* width: 80%; */
     justify-self: center; /*may not need*/
     margin: auto; /*may not need*/
     font-size: 1.5em;
@@ -187,7 +177,6 @@ fieldset {
     border: none;
     justify-content: center;
     display: grid;
-    /* gap: auto; */
 }
 
 
@@ -196,7 +185,7 @@ fieldset {
     display: none;
 }
 
-.banner__content {
+.bannerContent {
     padding: 16px;
     max-width: 500px;
     margin: 0 auto;
@@ -204,20 +193,20 @@ fieldset {
     align-items: center;
 }
 
-.banner__text {
+.bannerText {
     flex-grow: 1;
     line-height: 1.4;
     font-family: "Quicksand", sans-serif;
 }
 
-.banner__close {
+.bannerClose {
     background: none;
     border: none;
     cursor: pointer;
 }
 
-.banner__text,
-.banner__close>span {
+.bannerText,
+.bannerClose>span {
     color: #ffffff;
 }
 
@@ -271,9 +260,9 @@ ul li {
 }
 
 /* services */
-.service2 {
+/* .service2 {
     display: grid;
-}
+} */
 
 .templeServicesCard {
     min-height: 11em;

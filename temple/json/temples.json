@@ -5,7 +5,7 @@
             "address": "742 N 900 E American Fork UT 84003-9124 United States",
             "phoneNumber": "(1) 801-763-4540",
             "website": "https://www.churchofjesuschrist.org/temples/details/mount-timpanogos-utah-temple?lang=eng",
-            "imageurl": "images/timpanogosTemple",
+            "imageurl": "images/timpanogosTemple.jpeg",
             "services": [
                 "Clothing rental available",
                 "No cafeteria available",
@@ -35,7 +35,7 @@
             "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
             "phoneNumber": "N/A",
             "website": "https://www.churchofjesuschrist.org/temples/details/washington-d.c.-temple?lang=eng",
-            "imageurl": "images/dcTemple",
+            "imageurl": "images/dcTemple.jpeg",
             "services": [
                 "Open house April 28, 2022 - June 11, 2022"
             ],
@@ -57,7 +57,7 @@
             "address": "6363 Willow Ln, Dallas TX 75230-2227, United States",
             "phoneNumber": "(1) 972-991-1273",
             "website": "https://www.churchofjesuschrist.org/temples/details/dallas-texas-temple?lang=eng",
-            "imageurl": "images/dallasTemple",
+            "imageurl": "images/dallasTemple.jpeg",
             "services": [
                 "Clothing rental available",
                 "No cafeteria available",
@@ -89,7 +89,7 @@
             "address": "3901 SW 154th Ave, Davie FL 33331, United States",
             "phoneNumber": "(1) 954-382-8390",
             "website": "https://www.churchofjesuschrist.org/temples/details/fort-lauderdale-florida-temple?lang=eng",
-            "imageurl": "images/lauderdaleTemple",
+            "imageurl": "images/lauderdaleTemple.jpeg",
             "services": [
                 "No clothing rental available",
                 "No cafeteria available",
