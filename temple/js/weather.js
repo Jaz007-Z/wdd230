@@ -1,11 +1,9 @@
 
 async function getWheather() {
-    // [38.9807, -77.1003]
     const exclude = "minutely,current"
     const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=-77.1003&units=imperial&appid=af98801390ad8c67d0b28ab0ca82c8cb`;
     const response = await fetch(apiURL);
     const jsObject = await response.json();
-    console.log(jsObject);
     document.querySelector('#temp').innerHTML = jsObject.current.temp;
     document.querySelector('#speedWind').innerHTML = jsObject.current.wind_speed;
     const iconsrc = `https://openweathermap.org/img/w/${jsObject.current.weather[0].icon}.png`;
@@ -42,42 +40,22 @@ async function getWheather() {
     document.querySelector('#weatherIcon3').setAttribute('alt', desc3);
     document.querySelector('#weatherDesc3').textContent = desc3;
 
-    if (jsObject.alerts.event) {
-        document.querySelector(".banner").style.display = "block";
+    if (typeof jsObject.alerts != 'undefined') {
+        if (typeof jsObject.alerts.event != 'undefined') {
+            if (jsObject.alerts.event) {
+                document.querySelector(".banner").style.display = "block";
 
-        document.querySelector(".banner__close").addEventListener("click", function () {
-            this.closest(".banner").style.display = "none";
-        });
-        document.querySelector("alert").textContent = jsObject.alerts.event;
-        document.querySelector("alertDesc").textContent = jsObject.alerts.description;
+                document.querySelector(".bannerClose").addEventListener("click", function () {
+                    this.closest(".banner").style.display = "none";
+                });
+                document.querySelector("alert").textContent = jsObject.alerts.event;
+                document.querySelector("alertDesc").textContent = jsObject.alerts.description;
+            }
+        }
     }
-
-    
-
-
-
-
-
-    // let t = jsObject.main.temp;
-    // let s = jsObject.wind.speed;
-    // let windchill = "";
-
-    // if (t <= 50 && s > 3) {
-    //   windchill = windChill(t, s);
-    //   windchill = `${windchill}&#176;F`;
-    // } else {
-    //   windchill = "N/A";
-    // }
-    // output
-
-
 
 }
 
-//   function windChill(temp, speed) {
-//     let windChill = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
-//     return windChill.toFixed(2);
-//   }
 
 function capitalize(word) {
     return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;

@@ -8,7 +8,6 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         const temples = jsonObject['temples'];
-        console.log(temples);
         let spotlightTemple = temples.filter(temple => (temple.name === "Mount Timpanogos Utah Temple"));
         spotlightTemple = spotlightTemple[0];
         displaytemples(spotlightTemple);
@@ -20,7 +19,6 @@ fetch(requestURL)
 function displaytemples(temple) {
     // Create elements to add to the document
     const spotlight = document.querySelector('.hero');
-    console.log(temple);
 
 
     let image = document.createElement('img');
@@ -52,7 +50,6 @@ function displaytemples(temple) {
     // servicesPrep = temple.services.filter(temple => (temple.services != "No"));
     servicesPrep = temple.services;
     servicesFiltered = servicesPrep.filter(service => (service[0] != 'N' && service[1] != 'o'));
-    console.log(servicesFiltered);
 
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
@@ -70,7 +67,6 @@ function displaytemples(temple) {
 
     // Add/append the section(spotlight) with the h2 element
     // spotlight.appendChild(name);
-    console.log(name);
     spotlight.appendChild(image);
     spotlight.appendChild(infoDiv);
     infoDiv.appendChild(infoDivBasics);
@@ -88,7 +84,6 @@ function displaytemples(temple) {
     infoDiv.appendChild(form);
     form.appendChild(button);
     
-    // spotlight.appendChild(website);
 
 
 }

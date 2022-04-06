@@ -86,7 +86,7 @@
     }
 
     .subMenu li:first-child,
-    .subMenu li {
+    .subMenu li, .social{
         display: block;
 
     }

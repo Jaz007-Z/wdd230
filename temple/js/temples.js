@@ -1,6 +1,6 @@
 
-const requestURL = 'json/temples.json';
-// const requestURL = 'https://jaz007-z.github.io/wdd230/Temple/json/temples.json';
+// const requestURL = 'json/temples.json';
+const requestURL = 'https://jaz007-z.github.io/wdd230/Temple/json/temples.json';
 
 const cards = document.querySelector('.cards');
 
@@ -20,8 +20,6 @@ function displayTemples(temple, x = 0) {
   console.log(`displayTemples i: ${x}`)
   // Create elements to add to the document
   let card = document.createElement('section');
-  // const card = document.querySelector('.card');
-  // console.log(temple);
 
 
   let image = document.createElement('img');
@@ -56,12 +54,9 @@ function displayTemples(temple, x = 0) {
   scheduleInfo.innerHTML = "<strong>Schedule: </strong>";
   ordinanceSchedule.textContent = temple.ordinanceSchedule;
   sessionSchedule.textContent = temple.sessionSchedule;
-  // button.textContent = "Make a Reservation!";
 
-  // servicesPrep = temple.services.filter(temple => (temple.services != "No"));
   servicesPrep = temple.services;
   servicesFiltered = servicesPrep.filter(service => (service[0] != 'N' && service[1] != 'o'));
-  // console.log(servicesFiltered);
 
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
@@ -80,11 +75,8 @@ function displayTemples(temple, x = 0) {
 
 
   // Add/append the section(card) with the h2 element
-  // card.appendChild(name);
   cards.appendChild(card);
-  // card.appendChild(image); put in infodiv
   card.appendChild(infoDiv);
-  // infoDiv.appendChild(image); //put image in infoDiv
   infoDiv.appendChild(imageDiv);
   imageDiv.appendChild(image);
   infoDiv.appendChild(infoDivBasics);
@@ -156,10 +148,8 @@ function addLikeButton(infoDiv, x) {
 function addCardEvent() {
   const card = document.querySelectorAll('.card');
 
-  // const infoDiv = document.querySelectorAll('.templeInfo');
   const infoDiv = document.querySelectorAll('.extraTempleInfo');
 
-  // console.log(mainnav);
 
 
   for (var i = 0; i < card.length; i++) {
@@ -169,33 +159,11 @@ function addCardEvent() {
 
     infoDivTest = infoDiv[i];
     console.log(infoDivTest);
-    // card[i].addEventListener('click', () => { infoDivTest.classList.toggle('showExtraInfo') }, false);
-    // card[i].addEventListener('click', () => {mainnav.classList.toggle('showExtraInfo')}, false);
-    // card[i].addEventListener('click', () => { infoDiv[i].classList.toggle('showExtraInfo') }, false);
-    // card[i].addEventListener('click', () => { infoDiv.classList.toggle('showExtraInfo') }, false);
-
-
-    // card[i].addEventListener('click', () => {infoDiv[i].classList.add('.showExtraInfos')}, once="true");
-
+    
   }
 }
 getTemples();
 
-// const card = document.querySelectorAll('.card');
-
 const headerTop = document.querySelector('.headerTop');
 
 
-// console.log(cards);
-// const infoDiv = document.querySelectorAll('.extraTempleInfo');
-
-// // card.addEventListener('click', () => {infoDiv.classList.toggle('extraTempleInfo')}, false);
-// // if (card) {
-// //   card.addEventListener('click', () => { console.log("card clickedF"); }, false);
-// //   menuButton.addEventListener('click', () => { console.log("card clickedF"); }, false);
-// // }
-// menuButton.addEventListener('click', () => {console.log("card clickedF");}, false);
-// for(var i = 0; i < card.length;i++) {
-// card[i].addEventListener('click', () => {console.log("card clickedF"); }, false);
-// }
-// // card.addEventListener('click', () => {console.log("card clickedF"); }, false);

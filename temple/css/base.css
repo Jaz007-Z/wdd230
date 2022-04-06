@@ -56,6 +56,11 @@ main {
     background-color: black;
 }
 
+.social  {
+    display: grid;
+    gap: .4em;
+}
+
 a {
     color: black;
 }
@@ -113,8 +118,6 @@ p {
     display: none;
 }
 
-.subPageButton {
-}
 
 .buttonMargin {
     margin: .5em;
@@ -217,7 +220,7 @@ ul li {
 /* temples */
 
 .templeInfoCard:hover {
-    box-shadow: .6em .6em .4em grey;
+    box-shadow: .6em .6em .4em rgb(255, 255, 255);
 }
 
 .cards {
@@ -258,11 +261,6 @@ ul li {
 .card .heart:hover {
     width: 2.8em;
 }
-
-/* services */
-/* .service2 {
-    display: grid;
-} */
 
 .templeServicesCard {
     min-height: 11em;
